@@ -37,7 +37,7 @@ Basically the backgrounds' pixels are twice the pixels of the text.
 ASSET_SCALE is a multiplier for all backgrounds, areas, things (sprites), and coordinates
 that are natively drawn at 128x100
 */
-var ASSET_SCALE = 1;
+var ASSET_SCALE = 4;
 
 var WIDTH = NATIVE_WIDTH * ASSET_SCALE;
 var HEIGHT = NATIVE_HEIGHT * ASSET_SCALE;
