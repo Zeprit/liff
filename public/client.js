@@ -27,8 +27,8 @@ var SOUND = true;
 var AFK = false;
 
 //native canvas resolution
-var NATIVE_WIDTH = 256; //128
-var NATIVE_HEIGHT = 200;
+var NATIVE_WIDTH = 128; //128
+var NATIVE_HEIGHT = 100;
 
 /*
 The original resolution (pre canvas stretch) is 128x100 multiplied by 2 because
