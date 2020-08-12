@@ -27,7 +27,7 @@ var SOUND = true;
 var AFK = false;
 
 //native canvas resolution
-var NATIVE_WIDTH = 128;
+var NATIVE_WIDTH = 168; //128
 var NATIVE_HEIGHT = 100;
 
 /*
