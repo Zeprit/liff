@@ -27,8 +27,8 @@ var SOUND = true;
 var AFK = false;
 
 //native canvas resolution
-var NATIVE_WIDTH = 64; //128
-var NATIVE_HEIGHT = 50;
+var NATIVE_WIDTH = 256; //128
+var NATIVE_HEIGHT = 200;
 
 /*
 The original resolution (pre canvas stretch) is 128x100 multiplied by 2 because
@@ -37,7 +37,7 @@ Basically the backgrounds' pixels are twice the pixels of the text.
 ASSET_SCALE is a multiplier for all backgrounds, areas, things (sprites), and coordinates
 that are natively drawn at 128x100
 */
-var ASSET_SCALE = 2;
+var ASSET_SCALE = 1;
 
 var WIDTH = NATIVE_WIDTH * ASSET_SCALE;
 var HEIGHT = NATIVE_HEIGHT * ASSET_SCALE;
