@@ -669,10 +669,10 @@ function newGame() {
                 else {
                     spawnZone = ROOMS[SETTINGS.defaultRoom].spawn;
                     //randomize position if it"s the first time
-                    var sx = round(10 * ASSET_SCALE, 128 * ASSET_SCALE));
-                    var sy = round(70 * ASSET_SCALE, 100 * ASSET_SCALE));
-                    //var sx = round(random(spawnZone[0] * ASSET_SCALE, spawnZone[2] * ASSET_SCALE));
-                    //var sy = round(random(spawnZone[1] * ASSET_SCALE, spawnZone[3] * ASSET_SCALE));
+                    //var sx = round(10 * ASSET_SCALE, 128 * ASSET_SCALE));
+                    //var sy = round(70 * ASSET_SCALE, 100 * ASSET_SCALE));
+                    var sx = round(random(spawnZone[0] * ASSET_SCALE, spawnZone[2] * ASSET_SCALE));
+                    var sy = round(random(spawnZone[1] * ASSET_SCALE, spawnZone[3] * ASSET_SCALE));
                 }
 
 
