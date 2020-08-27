@@ -59,7 +59,7 @@ module.exports.ROOMS = {
         //minimum height for the speech bubbles
         bubblesY: 50,
         //if spawning directly in this room, top left and bottom right point defining the rectangular spawn area (random within it)
-        spawn: [84, 92, 121, 99],
+        spawn: [10, 150, 200, 246],
         //graphics with active areas Sierra Online adventures style
         //color coded as below, #FFFFFF is walkable, transparent is obstacle
         area: "likelike-areas-pico.png",
