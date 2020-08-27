@@ -160,7 +160,7 @@ module.exports.ROOMS = {
         spawn: [94, 166, 163, 199],
         areaColors: {
             //h will be replaced by #
-            hff77a8: { cmd: "enter", room: "likelike", label: "Enter LIKELIKE", point: [118, 104], enterPoint: [139, 130], obstacle: false },
+            hff77a8: { cmd: "enter", room: "likelike", label: "Enter LIKELIKE", point: [118, 104], enterPoint: [163, 199], obstacle: false },
         }
     },
 
