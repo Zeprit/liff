@@ -1145,7 +1145,7 @@ function update() {
     else if (screen == "avatar") {
         image(menuBg, 0, 0, WIDTH, HEIGHT);
 
-        textFont(font, FONT_SIZE * 2);
+        textFont(font, FONT_SIZE * 4);
         textAlign(CENTER, BASELINE);
         fill(0);
         text("Body", WIDTH / 4, HEIGHT / 2 - 10);
