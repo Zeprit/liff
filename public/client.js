@@ -1148,8 +1148,8 @@ function update() {
         textFont(font, FONT_SIZE * 2);
         textAlign(CENTER, BASELINE);
         fill(0);
-        text("Body", WIDTH / 4, HEIGHT / 2);
-        text("Color", (WIDTH) - (WIDTH / 4), HEIGHT / 2);
+        text("Body", WIDTH / 4, HEIGHT / 2 - 10);
+        text("Color", (WIDTH) - (WIDTH / 4), HEIGHT / 2 - 10);
 
         text("Choose your avatar", WIDTH / 2, 18 * ASSET_SCALE);
 
