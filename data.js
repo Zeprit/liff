@@ -153,7 +153,7 @@ module.exports.ROOMS = {
         frames: 2,
         frameDelay: 30,
         avatarScale: 2,
-        pageBg: "#000000",
+        pageBg: "#ab5236",
         area: "likelikeOutside-areas.png",
         tint: "#fdeac8",
         bubblesY: 44,
