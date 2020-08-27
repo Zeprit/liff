@@ -1148,8 +1148,8 @@ function update() {
         textFont(font, FONT_SIZE * 2);
         textAlign(CENTER, BASELINE);
         fill(0);
-        text("Body", WIDTH / 4, 44 * ASSET_SCALE);
-        text("Color", (WIDTH) - (WIDTH / 4), 44 * ASSET_SCALE);
+        text("Body", WIDTH / 4, HEIGHT / 2);
+        text("Color", (WIDTH) - (WIDTH / 4), HEIGHT / 2);
 
         text("Choose your avatar", WIDTH / 2, 18 * ASSET_SCALE);
 
@@ -1550,13 +1550,13 @@ function avatarSelection() {
     var animation = loadAnimation(ss);
 
     //the position is the bottom left
-    previousBody = createSprite(48 * ASSET_SCALE + 14, 50 * ASSET_SCALE + 14);
+    previousBody = createSprite(48 * ASSET_SCALE + 14, HEIGHT / 2 + 14);
     previousBody.addAnimation("default", animation);
     previousBody.animation.stop();
     previousBody.mirrorX(-1);
     menuGroup.add(previousBody);
 
-    nextBody = createSprite(64 * ASSET_SCALE + 14, 50 * ASSET_SCALE + 14);
+    nextBody = createSprite(64 * ASSET_SCALE + 14, HEIGHT / 2 + 14);
     nextBody.addAnimation("default", animation);
     nextBody.animation.stop();
     menuGroup.add(nextBody);
