@@ -1143,7 +1143,7 @@ function update() {
     }
     //renders the avatar selection screen which can be fully within the canvas
     else if (screen == "avatar") {
-        image(menuBg, 0, (WIDTH) - (WIDTH / 4), WIDTH, HEIGHT);
+        image(menuBg, 0, 0, WIDTH, HEIGHT);
 
         textFont(font, FONT_SIZE * 2);
         textAlign(CENTER, BASELINE);
