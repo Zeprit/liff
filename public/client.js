@@ -1152,7 +1152,7 @@ function update() {
         text("Body", WIDTH / 4, HEIGHT / 2 - 10);
         text("Color", (WIDTH) - (WIDTH / 4), HEIGHT / 2 - 10);
 
-        text("Choose your avatar", WIDTH / 2, 48 * ASSET_SCALE);
+        text("Choose your avatar", WIDTH / 2, 40 * ASSET_SCALE);
 
         menuGroup.draw();
 
