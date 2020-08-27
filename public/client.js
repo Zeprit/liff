@@ -1561,13 +1561,13 @@ function avatarSelection() {
     nextBody.animation.stop();
     menuGroup.add(nextBody);
 
-    previousColor = createSprite(174 * ASSET_SCALE + 14, 50 * ASSET_SCALE + 14);
+    previousColor = createSprite(175 * ASSET_SCALE + 14, 50 * ASSET_SCALE + 14);
     previousColor.addAnimation("default", animation);
     previousColor.animation.stop();
     previousColor.mirrorX(-1);
     menuGroup.add(previousColor);
 
-    nextColor = createSprite(190 * ASSET_SCALE + 14, 50 * ASSET_SCALE + 14);
+    nextColor = createSprite(191 * ASSET_SCALE + 14, 50 * ASSET_SCALE + 14);
     nextColor.addAnimation("default", animation);
     nextColor.animation.stop();
     menuGroup.add(nextColor);
