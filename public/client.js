@@ -1550,7 +1550,7 @@ function avatarSelection() {
     var animation = loadAnimation(ss);
 
     //the position is the bottom left
-    previousBody = createSprite(8 * ASSET_SCALE + 114, 50 * ASSET_SCALE + 14);
+    previousBody = createSprite(10 * ASSET_SCALE + 14, 50 * ASSET_SCALE + 14);
     previousBody.addAnimation("default", animation);
     previousBody.animation.stop();
     previousBody.mirrorX(-1);
