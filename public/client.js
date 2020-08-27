@@ -75,6 +75,7 @@ var ASSETS_FOLDER = "assets/";
 //thank you https://datagoblin.itch.io/monogram
 var FONT_FILE = "assets/monogram_extended.ttf";
 var FONT_SIZE = 16; //to avoid blur
+var FONT_SIZE_LARGE = 64;
 var font;
 var TEXT_H = 8;
 var TEXT_PADDING = 3;
@@ -1145,13 +1146,13 @@ function update() {
     else if (screen == "avatar") {
         image(menuBg, 0, 0, WIDTH, HEIGHT);
 
-        textFont(font, FONT_SIZE * 4);
+        textFont(font, FONT_SIZE * 2);
         textAlign(CENTER, BASELINE);
         fill(0);
         text("Body", WIDTH / 4, HEIGHT / 2 - 10);
         text("Color", (WIDTH) - (WIDTH / 4), HEIGHT / 2 - 10);
 
-        text("Choose your avatar", WIDTH / 2, 48 * ASSET_SCALE);
+        text("Choose your avatar", WIDTH / 2, 48 * ASSET_SCALE, FONT_SIZE_LARGE);
 
         menuGroup.draw();
 
