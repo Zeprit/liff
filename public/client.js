@@ -1151,7 +1151,7 @@ function update() {
         text("Body", 24 * ASSET_SCALE, 44 * ASSET_SCALE);
         text("Color", 105 * ASSET_SCALE, 44 * ASSET_SCALE);
 
-        text("Choose your avatar", 64 * ASSET_SCALE, 18 * ASSET_SCALE);
+        text("Choose your avatar", WIDTH / 2, 18 * ASSET_SCALE);
 
         menuGroup.draw();
 
