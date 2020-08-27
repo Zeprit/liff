@@ -157,7 +157,7 @@ module.exports.ROOMS = {
         area: "likelikeOutside-areas.png",
         tint: "#fdeac8",
         bubblesY: 44,
-        spawn: [94, 170, 162, 199],
+        spawn: [94, 166, 163, 199],
         areaColors: {
             //h will be replaced by #
             hff77a8: { cmd: "enter", room: "likelike", label: "Enter LIKELIKE", point: [100, 84], enterPoint: [104, 98], obstacle: false },
