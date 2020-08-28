@@ -61,7 +61,7 @@ module.exports.ROOMS = {
         //if spawning directly in this room, top left and bottom right point defining the rectangular spawn area (random within it)
         spawn: [10, 150, 200, 246],
         
-        music: "towerguysong.mp3",
+        music: "insideliff.mp3",
         //graphics with active areas Sierra Online adventures style
         //color coded as below, #FFFFFF is walkable, transparent is obstacle
         area: "likelike-areas-pico.png",
@@ -160,7 +160,7 @@ module.exports.ROOMS = {
         tint: "#fdeac8",
         bubblesY: 44,
         spawn: [94, 166, 163, 199],
-        music: "towerguysong.mp3",
+        music: "outsideliff.mp3",
         areaColors: {
             //h will be replaced by #
             hff77a8: { cmd: "enter", room: "likelike", label: "Enter LIFF", point: [128, 120], enterPoint: [130, 193], obstacle: false },
