@@ -160,6 +160,7 @@ module.exports.ROOMS = {
         tint: "#fdeac8",
         bubblesY: 44,
         spawn: [94, 166, 163, 199],
+        music: "towerguysong.mp3",
         areaColors: {
             //h will be replaced by #
             hff77a8: { cmd: "enter", room: "likelike", label: "Enter LIFF", point: [128, 120], enterPoint: [130, 193], obstacle: false },
