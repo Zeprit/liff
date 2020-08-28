@@ -60,6 +60,8 @@ module.exports.ROOMS = {
         bubblesY: 50,
         //if spawning directly in this room, top left and bottom right point defining the rectangular spawn area (random within it)
         spawn: [10, 150, 200, 246],
+        
+        music: "towerguysong.mp3",
         //graphics with active areas Sierra Online adventures style
         //color coded as below, #FFFFFF is walkable, transparent is obstacle
         area: "likelike-areas-pico.png",
