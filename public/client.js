@@ -213,10 +213,10 @@ var dataLoaded = false;
 var gameStarted = false;
 
 //description for each character
-var descripText = ["It wasn't easy, living like a tower guy.",
-                  "I'll tell you one thing, don't bring the tuba.",
+var descripText = ["It wasn't easy, living like a tower guy.\nFavorite movie: The Raid",
+                  "I'll tell you one thing, don't bring the tuba.\nFavorite movie: Paddington",
                   "LEKKERE HAMSSSSAMMMIEEEEE",
-                  "Soms is een tekst gewoon veeeeelste lang en dan wil je testen wat er gebeurd rite guys?"]
+                  "Soms is een tekst gewoon veeeeelste lang en dan wil je testen \nwat er gebeurd rite guys?"]
 
 /*
 Things are quite asynchronous here. This is the startup sequence:
@@ -1159,6 +1159,7 @@ function update() {
         text("Color", (WIDTH) - (WIDTH / 4), HEIGHT / 2 - 10);
 
         text("Choose your avatar", WIDTH / 2, 40 * ASSET_SCALE);
+        textFont(font, FONT_SIZE * 1.5);
         text(descripText[currentAvatar], WIDTH / 2, HEIGHT - 80);
 
         menuGroup.draw();
