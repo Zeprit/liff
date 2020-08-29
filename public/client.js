@@ -212,7 +212,46 @@ var START_TIME = -1;
 var dataLoaded = false;
 var gameStarted = false;
 
-
+//description for each character
+var descripText = newArray(38);
+descripText[0] = "it wasn't easy, living like a tower guy";
+descripText[1] = "";
+descripText[2] = "";
+descripText[3] = "";
+descripText[4] = "EEN LEKKERE HAMSAMMMIEE??";
+descripText[5] = "";
+descripText[6] = "";
+descripText[7] = "";
+descripText[8] = "";
+descripText[9] = "";
+descripText[10] = "";
+descripText[11] = "";
+descripText[12] = "";
+descripText[13] = "";
+descripText[14] = "";
+descripText[15] = "";
+descripText[16] = "";
+descripText[17] = "";
+descripText[18] = "";
+descripText[19] = "";
+descripText[20] = "";
+descripText[21] = "";
+descripText[22] = "";
+descripText[23] = "";
+descripText[24] = "";
+descripText[25] = "";
+descripText[26] = "";
+descripText[27] = "";
+descripText[28] = "";
+descripText[29] = "";
+descripText[30] = "";
+descripText[31] = "";
+descripText[32] = "";
+descripText[33] = "";
+descripText[34] = "";
+descripText[35] = "";
+descripText[36] = "";
+descripText[37] = "";
 
 /*
 Things are quite asynchronous here. This is the startup sequence:
@@ -1155,6 +1194,7 @@ function update() {
         text("Color", (WIDTH) - (WIDTH / 4), HEIGHT / 2 - 10);
 
         text("Choose your avatar", WIDTH / 2, 40 * ASSET_SCALE);
+        text(descripText[currentAvatar], WIDTH / 2, HEIGHT - 80);
 
         menuGroup.draw();
 
