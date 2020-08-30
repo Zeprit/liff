@@ -1159,7 +1159,7 @@ function update() {
         text("Color", (WIDTH) - (WIDTH / 4), HEIGHT / 2 - 10);
 
         text("Choose your avatar", WIDTH / 2, 40 * ASSET_SCALE);
-        textFont(font, FONT_SIZE * 1.5);
+        textFont(font, FONT_SIZE * 1);
         text(descripText[currentAvatar], WIDTH / 2, HEIGHT - 80);
 
         menuGroup.draw();
