@@ -1148,7 +1148,7 @@ function newGame() {
 function update() {
 
     if (screen == "user") {
-        //image(menuBg, 0, 0, WIDTH, HEIGHT);
+        image(menuBg, 0, 0, WIDTH, HEIGHT);
     }
     //renders the avatar selection screen which can be fully within the canvas
     else if (screen == "avatar") {
@@ -1888,28 +1888,18 @@ function isObstacle(x, y, room, a) {
 
         var c1 = a.get(px, py);
 
-        if (medewerker = false){
-          if (c1[0] != 255 || c1[1] != 255 || c1[2] != 255) {
-                var cmd = getCommand(c1, room);
-
-                if (cmd != null)
-                    if (cmd.obstacle != null)
-                        obs = cmd.obstacle;
-            }
-            else
+        if (medewerker = true){
+          if (c1[0] == 255 && c1[1] == 255 && c1[2] == 255) {
                 obs = false; //if white
-        }else{
-          if (c1[0] = 255 && c1[1] = 255 && c1[2] = 255) {
-                obs = false;
-          }else if (c1[0] = 255 && c1[1] = 255 && c1[2] = 255) {
-                obs = false;
-          }else{
+            }
+            else{
                 var cmd = getCommand(c1, room);
 
                 if (cmd != null)
                     if (cmd.obstacle != null)
                         obs = cmd.obstacle;
-          }
+                
+            }
         }
 
     }
