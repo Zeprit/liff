@@ -1146,7 +1146,7 @@ function newGame() {
 function update() {
 
     if (screen == "user") {
-        image(menuBg, 0, 0, WIDTH, HEIGHT);
+        //image(menuBg, 0, 0, WIDTH, HEIGHT);
     }
     //renders the avatar selection screen which can be fully within the canvas
     else if (screen == "avatar") {
