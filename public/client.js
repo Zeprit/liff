@@ -218,6 +218,8 @@ var descripText = ["It wasn't easy, living like a tower guy.\nFavorite movie: Th
                   "LEKKERE HAMSSSSAMMMIEEEEE",
                   "Soms is een tekst gewoon veeeeelste lang en dan wil je testen \nwat er gebeurd rite guys?"]
 
+var medewerker = true;
+
 /*
 Things are quite asynchronous here. This is the startup sequence:
 
@@ -1886,16 +1888,28 @@ function isObstacle(x, y, room, a) {
 
         var c1 = a.get(px, py);
 
-        //if not white check if color is obstacle
-        if (c1[0] != 255 || c1[1] != 255 || c1[2] != 255) {
-            var cmd = getCommand(c1, room);
+        if (medewerker = false){
+          if (c1[0] != 255 || c1[1] != 255 || c1[2] != 255) {
+                var cmd = getCommand(c1, room);
 
-            if (cmd != null)
-                if (cmd.obstacle != null)
-                    obs = cmd.obstacle;
+                if (cmd != null)
+                    if (cmd.obstacle != null)
+                        obs = cmd.obstacle;
+            }
+            else
+                obs = false; //if white
+        }else{
+          if ((c1[0] != 255 || c1[1] != 255 || c1[2] != 255) && (c1[0] != 0 || c1[1] != 255 || c1[2] != 0)) {
+                var cmd = getCommand(c1, room);
+
+                if (cmd != null)
+                    if (cmd.obstacle != null)
+                        obs = cmd.obstacle;
+            }
+            else
+                obs = false; //if white or green
+          
         }
-        else
-            obs = false; //if white
 
     }
     return obs;
