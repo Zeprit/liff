@@ -213,10 +213,6 @@ module.exports.ROOMS = {
         areaColors: {
             hffec27: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 197], enterPoint: [215, 39], obstacle: false },
             
-        <iframe width="130" height="28"
-        src="https://www.youtube.com/watch?v=z0qW9P-uYfM">
-        </iframe>
-
         },
         things: {
             //sprite spreadsheets only 1 row ok?
