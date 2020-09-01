@@ -75,7 +75,7 @@ module.exports.ROOMS = {
             //enterPoint: where to spawn in the next room
             //obstacle: is the area walkable
             hffec27: { cmd: "enter", room: "likelikeBackyard", label: "Backyard", point: [6, 88], enterPoint: [116, 69], obstacle: false },
-            h00e436: { cmd: "enter", room: "likelikeOutside", label: "Outside", point: [132, 192], enterPoint: [128, 118], obstacle: false },
+            h00e436: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [132, 192], enterPoint: [128, 118], obstacle: false },
             hab5236: { cmd: "enter", room: "firstFloor", label: "oMoMA", point: [116, 85], enterPoint: [63, 98], obstacle: false },
 
             //text displays a text only on the client
@@ -150,7 +150,7 @@ module.exports.ROOMS = {
         }
     },
 
-    likelikeOutside: {
+    LIFFOutside: {
         bg: "likelike-outside-omoma.png",
         frames: 2,
         frameDelay: 30,
