@@ -93,7 +93,7 @@ module.exports.ROOMS = {
         //they can be animated, mouse reactive and trigger commands like the areas above
         things: {
             //sprite spreadsheets only 1 row ok?
-            cabinet: { file: "top-cabinet-pico.png", frames: 1, frameDelay: 1, position: [24, 89], label: "A huggy game", command: { cmd: "text", txt: "EMBRACE\nby Remy Devaux, 2018\nClick to play.\nControls: Arrow keys.", align: "left", lines: 4, url: "https://trasevol-dog.itch.io/embrace", label: "A huggy game", point: [33, 92] } }
+            
         }
     },
 
