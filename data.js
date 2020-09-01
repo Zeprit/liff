@@ -128,7 +128,7 @@ module.exports.ROOMS = {
             //enterPoint: where to spawn in the next room
             //obstacle: is the area walkable
             hffec27: { cmd: "enter", room: "likelikeBackyard", label: "Backyard", point: [6, 88], enterPoint: [116, 69], obstacle: false },
-            h00e436: { cmd: "enter", room: "likelikeOutside", label: "Street", point: [102, 98], enterPoint: [103, 84], obstacle: false },
+            h00e436: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [102, 98], enterPoint: [103, 84], obstacle: false },
             //text displays a text only on the client
             //txt: the text
             //align: center or left
