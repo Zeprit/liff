@@ -74,7 +74,7 @@ module.exports.ROOMS = {
             //point: where to walk after click
             //enterPoint: where to spawn in the next room
             //obstacle: is the area walkable
-            hffec27: { cmd: "enter", room: "LIFFTheater1", label: "Theater Room 1", point: [6, 88], enterPoint: [126, 192], obstacle: false },
+            hffec27: { cmd: "enter", room: "LIFFTheater1", label: "Theater Room 1", point: [62, 90], enterPoint: [126, 192], obstacle: false },
             h00e436: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [132, 192], enterPoint: [128, 118], obstacle: false },
             hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [116, 85], enterPoint: [63, 98], obstacle: false },
 
