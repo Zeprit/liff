@@ -211,7 +211,7 @@ module.exports.ROOMS = {
         bubblesY: 46,
         spawn: [15, 77, 113, 96],
         areaColors: {
-            hff77a8: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 197], enterPoint: [215, 39], obstacle: false },
+            hffec27: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 197], enterPoint: [215, 39], obstacle: false },
 
         },
         things: {
