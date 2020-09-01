@@ -421,7 +421,7 @@ function firstFloorEnter(playerId, roomId) {
 
 	var youtubeParameters = "?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=";
 	
-	var playlistId = "PLWQj9GCj5V0AcNw2Ag65obj0qk9mKDgh8";
+	var playlistId = "ustrOyrmLOA";
 
 	var currentLocalYoutubeId = null;
 	
@@ -432,7 +432,7 @@ function firstFloorEnter(playerId, roomId) {
 		{
 			print("player with name entered freeplay");
 			// start the video!
-			setVideo("iGxrq19AiBI");
+			setVideo("ustrOyrmLOA");
 		}
 	}
 	
