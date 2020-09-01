@@ -76,7 +76,7 @@ module.exports.ROOMS = {
             //obstacle: is the area walkable
             hffec27: { cmd: "enter", room: "LIFFTheater1", label: "Theater Room 1", point: [62, 90], enterPoint: [126, 192], obstacle: false },
             h00e436: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [132, 192], enterPoint: [128, 118], obstacle: false },
-            hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [116, 85], enterPoint: [63, 98], obstacle: false },
+            hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [215, 39], enterPoint: [126, 192], obstacle: false },
 
             //text displays a text only on the client
             //txt: the text
@@ -211,16 +211,7 @@ module.exports.ROOMS = {
         bubblesY: 46,
         spawn: [15, 77, 113, 96],
         areaColors: {
-            //left
-            hffec27: { cmd: "enter", room: "cnsnntrm", label: "cnsnnt rm", point: [10, 86], enterPoint: [114, 86], obstacle: false },
-            //right
-            h00e436: { cmd: "enter", room: "mirrorRoom", label: "Mirror Room", point: [117, 86], enterPoint: [12, 86], obstacle: false },
-            //up
-            h29adff: { cmd: "enter", room: "secondFloor", label: "2nd Floor", point: [30, 73], enterPoint: [99, 73], obstacle: false },
-            //wall text
-            ha8e72e: { cmd: "text", txt: "ONLINE MUSEUM OF MULTIPLAYER ART\nA survey of contemporary playful art. You have to talk and interact with other visitors to get the art.", align: "left", lines: 5, label: "Wall text", point: [50, 73], obstacle: false },
-            hb7250b: { cmd: "text", txt: "Anomaly\nMixed media, subjectively perceived.", align: "left", lines: 3, label: "Installation?", point: [75, 77], obstacle: false },
-            hbe1250: { cmd: "enter", room: "likelike", label: "LIKELIKE Arcade", point: [63, 98], enterPoint: [116, 85], obstacle: false },
+            hff77a8: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 197], enterPoint: [215, 39], obstacle: false },
 
         },
         things: {
