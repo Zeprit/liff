@@ -180,7 +180,7 @@ module.exports.ROOMS = {
         spawn: [38, 63, 108, 83],
         areaColors: {
             //h will be replaced by #
-            hff77a8: { cmd: "enter", room: "likelike", label: "Enter LIKELIKE", point: [126, 197], enterPoint: [62, 90], obstacle: false },
+            hff77a8: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 197], enterPoint: [62, 90], obstacle: false },
         },
         things: {
             //spreadsheets only 1 row ok?
