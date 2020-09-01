@@ -913,7 +913,7 @@ function newGame() {
 
                 if (players[p.id] != null) {
 
-                    //calling a custom function roomnameEnter if it exists
+                    //calling a custom function roomnameExit if it exists
                     if (window[p.room + "Exit"] != null) {
                         window[p.room + "Exit"](p.id);
                     }
@@ -2123,6 +2123,10 @@ function executeCommand(c) {
                 if (ROOMS[me.room].musicLoop != null) {
                     ROOMS[me.room].musicLoop.stop();
                 }
+                if(window[me.room + "Exit"] != null)
+				        {
+					          window[me.room + "Exit"](me.id);
+				        }
 
                 if (c.enterPoint != null) {
                     sx = c.enterPoint[0] * ASSET_SCALE;

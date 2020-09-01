@@ -110,6 +110,18 @@ function initMod(playerId, roomId) {
 
         });
 
+  socket.on('reloadVideo', function (videoId)
+	{
+		print("reloadVideo received");
+		setVideo(videoId, true)
+	});
+	
+	socket.on('changeVideo', function (videoId)
+	{
+		print("changeVideo received");
+		setVideo(videoId, false)
+	});
+
     }
 
 }
@@ -402,3 +414,63 @@ function firstFloorEnter(playerId, roomId) {
         }
     }
 }
+
+	//var videoUrl = "https://www.youtube.com/embed/iGxrq19AiBI?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=iGxrq19AiBI";
+
+	var youtubeUrl = "https://www.youtube.com/embed/";
+
+	var youtubeParameters = "?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=";
+	
+	var playlistId = "PLWQj9GCj5V0AcNw2Ag65obj0qk9mKDgh8";
+
+	var currentLocalYoutubeId = null;
+	
+	function LIFFTheater1Enter(playerId, roomId)
+	{
+		print("Freeplay! " + players[playerId].nickName + " entered room " + roomId);
+		if(playerId == me.id && players[playerId].nickName.length > 0)
+		{
+			print("player with name entered freeplay");
+			// start the video!
+			setVideo("iGxrq19AiBI");
+		}
+	}
+	
+	function setVideo(videoId, reload)
+	{
+		if(nickName == "")
+		{
+			console.log("Player in lurk mode, don't start video yet!");
+			return;
+		}
+		
+		if(videoId != currentLocalYoutubeId || reload == true)
+		{// only update video if it has changed!
+			currentLocalYoutubeId = videoId;
+			var videoUrl = youtubeUrl + videoId + youtubeParameters + playlistId;
+			player = select("#yt_video");
+			player.attribute('src', videoUrl);
+		}
+		e = document.getElementById("video-container");
+		if (e != null)
+			e.style.display = "block";
+	}
+	
+	//roomnameExit: called right before a player exits or disconnects
+	// this seems to just be called for other players!
+	// Had to modify client to have it called for the play leaving
+	function LIFFTheater1Exit(playerId)
+	{
+		if(playerId == me.id)
+		{
+			console.log("I Left Freeplay");
+			e = document.getElementById("video-container");
+			if (e != null)
+				e.style.display = "none";
+		}
+		else
+		{
+			console.log(players[playerId].nickName + " Left Freeplay");
+		}
+	}
+

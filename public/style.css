@@ -245,6 +245,21 @@ canvas {
 	text-align: center;
 }
 
+/*VIDEO OVERLAYS*/
+#video-container {
+	display: block;
+    height: 100%;
+}
+
+.content-top {
+	z-index: 2;
+	width: 100%;
+	position: relative;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -80%);
+	text-align: center;
+}
 
 
 
