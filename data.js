@@ -45,7 +45,7 @@ module.exports.ROOMS = {
 
     likelike: {
         //the background graphics, it can be a spreadsheet
-        bg: "likelike-bg-pico.png",
+        bg: "liff-lobby.png",
         //if spreadsheet frames
         frames: 2,
         //if animated, animation speed in refreshes (frame dependent)
