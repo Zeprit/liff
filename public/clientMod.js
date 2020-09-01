@@ -472,5 +472,24 @@ function firstFloorEnter(playerId, roomId) {
 		{
 			console.log(players[playerId].nickName + " Left Freeplay");
 		}
-	}
+    }
+    
+    function LIFFTheater2Enter(playerId, roomId)
+    {
+        //Empty just to declare this
+    }
 
+    function LIFFTheater2Exit(playerId)
+    {
+        //Empty just to declare this
+    }
+
+    function LIFFOutsideEnter(playerId, roomId)
+    {
+        //Empty just to declare this
+    }
+
+    function LIFFOutsideExit(playerId)
+    {
+        //Empty just to declare this
+    }
