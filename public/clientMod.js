@@ -474,6 +474,15 @@ function firstFloorEnter(playerId, roomId) {
 			console.log(players[playerId].nickName + " Left Freeplay");
 		}
     }
+	function likelikeEnter(playerId, roomId)
+	{
+		if(playerId == me.id)
+		{
+			e = document.getElementById("video-container");
+			if (e != null)
+			e.style.display = "none";
+	}
+	}
     
     function LIFFTheater2Enter(playerId, roomId)
     {
