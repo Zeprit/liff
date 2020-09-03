@@ -1183,10 +1183,6 @@ function update() {
         if (window[room + "Update"] != null) {
             window[room + "Update"]();
         }
-	    
-	if (currentAvatar == 16){
-          SPEED = 10;
-        }
 
         //draw a background
         background(UI_BG);
