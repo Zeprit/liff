@@ -467,6 +467,7 @@ function firstFloorEnter(playerId, roomId) {
 			e = document.getElementById("video-container");
 			if (e != null)
 				e.style.display = "none";
+				setVideo("");
 		}
 		else
 		{
