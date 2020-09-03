@@ -1148,13 +1148,14 @@ function newGame() {
 function update() {
 
     if (screen == "user") {
+	fill("#FFFFFF");
         image(menuBg, 0, 0, WIDTH, HEIGHT);
     }
     //renders the avatar selection screen which can be fully within the canvas
     else if (screen == "avatar") {
         image(menuBg, 0, 0, WIDTH, HEIGHT);
 
-        textFont(font, FONT_SIZE * 2);
+        textFont(font, FONT_SIZE * 4);
         textAlign(CENTER, BASELINE);
         fill("#FFFFFF");
         text("Body", WIDTH / 4, HEIGHT / 2 - 10);
