@@ -184,7 +184,7 @@ module.exports.ROOMS = {
         },
         things: {
             //spreadsheets only 1 row ok?
-            harvey: { file: "harvey.png", frames: 2, frameDelay: 10, position: [102, 77], label: "Harvey", command: { cmd: "text", txt: "*You pet the dog*", align: "center", lines: 1, point: [101, 84] } },
+            
 
         }
     },
