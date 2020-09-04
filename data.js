@@ -198,11 +198,11 @@ module.exports.ROOMS = {
         area: "photobooth_liff_area.png",
         tint: "#fdbe4e",
         pageBg: "#413830",
-        bubblesY: 20,
+        bubblesY: 50,
         spawn: [38, 63, 108, 83],
         areaColors: {
             //h will be replaced by #
-            h0ddee3: { cmd: "enter", room: "likelike", label: "Main Hall", point: [180, 134], enterPoint: [92, 116], obstacle: false },
+            h0ddee3: { cmd: "enter", room: "likelike", label: "Main Hall", point: [180, 234], enterPoint: [92, 116], obstacle: false },
         },
         things: {
             //spreadsheets only 1 row ok?
