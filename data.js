@@ -194,7 +194,7 @@ module.exports.ROOMS = {
         bg: "photobooth_liff.png",
         frames: 2,
         frameDelay: 30,
-        avatarScale: 2,
+        avatarScale: 8,
         area: "photobooth_liff_area.png",
         tint: "#fdbe4e",
         pageBg: "#413830",
