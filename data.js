@@ -202,7 +202,7 @@ module.exports.ROOMS = {
         spawn: [38, 63, 108, 83],
         areaColors: {
             //h will be replaced by #
-            h0ddee3: { cmd: "enter", room: "likelike", label: "Main Hall", point: [180, 234], enterPoint: [92, 116], obstacle: false },
+            h0ddee3: { cmd: "enter", room: "likelike", label: "Main Hall", point: [180, 194], enterPoint: [92, 116], obstacle: false },
         },
         things: {
             //spreadsheets only 1 row ok?
