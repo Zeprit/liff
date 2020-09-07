@@ -155,7 +155,7 @@ module.exports.ROOMS = {
         bg: "likelike-outside-omoma.png",
         frames: 2,
         frameDelay: 30,
-        avatarScale: 2,
+        avatarScale: 4,
         pageBg: "#011221",
         area: "likelikeOutside-areas.png",
         //tint: "#fdeac8",
