@@ -1562,7 +1562,7 @@ function avatarSelection() {
     var animation = loadAnimation(ss);
 
     //the position is the bottom left
-    previousBody = createSprite(48 * ASSET_SCALE + 28, HEIGHT / 2 + 28);
+    previousBody = createSprite((48 * ASSET_SCALE), (HEIGHT / 2) + 28);
     previousBody.addAnimation("default", animation);
     previousBody.animation.stop();
     previousBody.mirrorX(-1);
@@ -1573,7 +1573,7 @@ function avatarSelection() {
     nextBody.animation.stop();
     menuGroup.add(nextBody);
 
-    previousColor = createSprite(175.5 * ASSET_SCALE + 28, HEIGHT / 2 + 28);
+    previousColor = createSprite(175.5 * ASSET_SCALE, HEIGHT / 2 + 28);
     previousColor.addAnimation("default", animation);
     previousColor.animation.stop();
     previousColor.mirrorX(-1);
