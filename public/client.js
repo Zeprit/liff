@@ -1513,7 +1513,7 @@ function update() {
 
         if (nickName == "" && (logoCounter < LOGO_STAY || LOGO_STAY == -1)) {
             logoCounter += deltaTime;
-            animation(logo, floor(width / 2), floor(height / 2));
+            //animation(logo, floor(width / 2), floor(height / 2));
         }
 
     }//end game
