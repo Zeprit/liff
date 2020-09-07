@@ -228,7 +228,7 @@ module.exports.ROOMS = {
         bg: "LIFFtheater2.png",
         avatarScale: 2,
         pageBg: "#e1cdcd",
-        area: "firstFloor-areas.png",
+        area: "LIFFtheater2_areas.png",
         tint: "#FFFFFF",
         bubblesY: 46,
         spawn: [15, 77, 113, 96],
