@@ -153,9 +153,9 @@ module.exports.ROOMS = {
 
     LIFFOutside: {
         bg: "likelike-outside-omoma.png",
-        frames: 2,
-        frameDelay: 30,
-        avatarScale: 4,
+        frames: 4,
+        frameDelay: 20,
+        avatarScale: 2,
         pageBg: "#011221",
         area: "likelikeOutside-areas.png",
         //tint: "#fdeac8",
