@@ -129,6 +129,17 @@ module.exports.initMod = function (io, gameState, DATA) {
 
     }, random(1000, 2000));
 
+    var greeter = new NPC(
+        {
+            id: "greeter",
+            nickName: "Greeter",
+            room: "LIFFOutside",
+            x: 120,
+            y: 200,
+            avatar: 1,
+            colors: [2, 2, 1, 5],
+            labelColor: "#1e839d"
+        });
 
     global.VIPList = [];
 
