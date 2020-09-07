@@ -169,7 +169,7 @@ module.exports.ROOMS = {
             h7fffb8: { cmd: "text", label: "Greeter", txt: "Welcome to LIFF!", align: "center", lines: 1, point: [117, 145] },
         },
         things: {
-            greeter: { file: "museumGuard.png", frames: 1, frameDelay: 30, position: [105, 125]/*, label: "Greeter"*/ }
+            greeter: { file: "museumGuard.png", frames: 17, frameDelay: 30, position: [105, 125]/*, label: "Greeter"*/ }
 
         }
     },

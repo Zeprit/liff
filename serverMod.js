@@ -34,22 +34,22 @@ module.exports.initMod = function (io, gameState, DATA) {
 
 
     global.paranoidTalk = [
-        "Hey you",
-        "There are bots in here",
-        "Are you a bot?",
-        "Russia is controlling the bots",
-        "Are you real?",
+        "Hey Mark",
+        "There are Marks in here",
+        "Are you a Mark?",
+        "Mark is controlling the bots",
+        "Are you Mark?",
         "Yes",
-        "I don't trust you",
-        "This is weird",
-        "Prove you are human",
+        "I don't trust you, Mark",
+        "This is weird, Mark",
+        "Prove you are Mark",
         "No",
-        "Have you seen that?",
-        "That person is a bot",
+        "Have you seen Mark?",
+        "That person is a Mark",
         "Listen",
-        "Bots everywhere",
+        "Mark everywhere",
         "Hello",
-        "Another bot"
+        "Another Mark"
     ];
 
     //load extended dictionary, this is 3Mb but only sits on the server and it's used by only one room
