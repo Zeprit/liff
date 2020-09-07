@@ -94,16 +94,16 @@ module.exports.initMod = function (io, gameState, DATA) {
     //Example of NPC creation and behavior
 
     var npc = new NPC(
-        {
-            id: "paranoid",
-            nickName: "Anonymous",
-            room: "likelike",
-            x: 23,
-            y: 78,
-            avatar: 1,
-            colors: [2, 2, 1, 5],
-            labelColor: "#1e839d"
-        });
+    {
+        id: "paranoid",
+        nickName: "Anonymous",
+        room: "likelike",
+        x: 23,
+        y: 78,
+        avatar: 1,
+        colors: [2, 2, 1, 5],
+        labelColor: "#1e839d"
+    });
 
     npc.behavior = setTimeout(function ramble() {
         var dice = random(0, 100);
@@ -130,16 +130,77 @@ module.exports.initMod = function (io, gameState, DATA) {
     }, random(1000, 2000));
 
     var greeter = new NPC(
-        {
-            id: "greeter",
-            nickName: "Greeter",
-            room: "LIFFOutside",
-            x: 120,
-            y: 200,
-            avatar: 1,
-            colors: [2, 2, 1, 5],
-            labelColor: "#1e839d"
-        });
+    {
+        id: "greeter",
+        nickName: "Greeter",
+        room: "LIFFOutside",
+        x: 120,
+        y: 200,
+        avatar: 1,
+        colors: [2, 2, 1, 5],
+        labelColor: "#1e839d"
+    });
+
+    var band1 = new NPC(
+    {
+        id: "band1",
+        nickName: "Singer",
+        room: "likelike",
+        x: 120,
+        y: 120,
+        avatar: 1,
+        colors: [2, 2, 1, 5],
+        labelColor: "#1e839d"
+    });
+
+    var band2 = new NPC(
+    {
+        id: "band2",
+        nickName: "Guitarist",
+        room: "likelike",
+        x: 125,
+        y: 115,
+        avatar: 1,
+        colors: [2, 2, 1, 5],
+        labelColor: "#1e839d"
+    });
+
+    var band3 = new NPC(
+    {
+        id: "band3",
+        nickName: "Drummer",
+        room: "likelike",
+        x: 130,
+        y: 118,
+        avatar: 1,
+        colors: [2, 2, 1, 5],
+        labelColor: "#1e839d"
+    });
+
+    var band4 = new NPC(
+    {
+        id: "band4",
+        nickName: "Bassist",
+        room: "likelike",
+        x: 135,
+        y: 122,
+        avatar: 1,
+        colors: [2, 2, 1, 5],
+        labelColor: "#1e839d"
+    });
+
+    var band5 = new NPC(
+    {
+        id: "band5",
+        nickName: "Tambourine Guy",
+        room: "likelike",
+        x: 140,
+        y: 127,
+        avatar: 1,
+        colors: [2, 2, 1, 5],
+        labelColor: "#1e839d"
+    });    
+        
 
     global.VIPList = [];
 
