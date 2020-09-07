@@ -142,64 +142,64 @@ module.exports.initMod = function (io, gameState, DATA) {
     });
 
     var band1 = new NPC(
-    {
-        id: "band1",
-        nickName: "Singer",
-        room: "likelike",
-        x: 240,
-        y: 240,
-        avatar: 1,
-        colors: [2, 2, 1, 5],
-        labelColor: "#1e839d"
-    });
-
-    var band2 = new NPC(
-    {
-        id: "band2",
-        nickName: "Guitarist",
-        room: "likelike",
-        x: 250,
-        y: 230,
-        avatar: 1,
-        colors: [2, 2, 1, 5],
-        labelColor: "#1e839d"
-    });
-
-    var band3 = new NPC(
-    {
-        id: "band3",
-        nickName: "Drummer",
-        room: "likelike",
-        x: 260,
-        y: 236,
-        avatar: 1,
-        colors: [2, 2, 1, 5],
-        labelColor: "#1e839d"
-    });
-
-    var band4 = new NPC(
-    {
-        id: "band4",
-        nickName: "Bassist",
-        room: "likelike",
-        x: 270,
-        y: 244,
-        avatar: 1,
-        colors: [2, 2, 1, 5],
-        labelColor: "#1e839d"
-    });
-
-    var band5 = new NPC(
-    {
-        id: "band5",
-        nickName: "Tambourine Guy",
-        room: "likelike",
-        x: 280,
-        y: 254,
-        avatar: 1,
-        colors: [2, 2, 1, 5],
-        labelColor: "#1e839d"
-    });    
+        {
+            id: "band1",
+            nickName: "Singer",
+            room: "likelike",
+            x: 311,
+            y: 224,
+            avatar: 1,
+            colors: [2, 2, 1, 5],
+            labelColor: "#1e839d"
+        });
+    
+        var band2 = new NPC(
+        {
+            id: "band2",
+            nickName: "Guitarist",
+            room: "likelike",
+            x: 281,
+            y: 241,
+            avatar: 1,
+            colors: [2, 2, 1, 5],
+            labelColor: "#1e839d"
+        });
+    
+        var band3 = new NPC(
+        {
+            id: "band3",
+            nickName: "Drummer",
+            room: "likelike",
+            x: 263,
+            y: 221,
+            avatar: 1,
+            colors: [2, 2, 1, 5],
+            labelColor: "#1e839d"
+        });
+    
+        var band4 = new NPC(
+        {
+            id: "band4",
+            nickName: "Tambourine Guy",
+            room: "likelike",
+            x: 342,
+            y: 216,
+            avatar: 1,
+            colors: [2, 2, 1, 5],
+            labelColor: "#1e839d"
+        });
+    
+        var band5 = new NPC(
+        {
+            id: "band5",
+            nickName: "Bassist",
+            room: "likelike",
+            x: 368,
+            y: 232,
+            avatar: 1,
+            colors: [2, 2, 1, 5],
+            labelColor: "#1e839d"
+        });     
         
 
     global.VIPList = [];
