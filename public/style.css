@@ -264,16 +264,17 @@ canvas {
 /*VIDEO OVERLAYS*/
 #video-container {
 	display: block;
-    height: 100%;
+    height: 38%;
 }
 
 .content-top {
 	z-index: 2;
 	width: 100%;
+	height: 100%;
+	top: 10%;
 	position: relative;
-	top: 34%;
 	left: 50%;
-	transform: translate(-50%, -80%);
+	transform: translate(-50%, 0%);
 	text-align: center;
 }
 
