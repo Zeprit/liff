@@ -251,6 +251,7 @@ module.exports.ROOMS = {
             sculpture2: { file: "sculpture2.png", position: [70, 22], visible: false },
             sculpture3: { file: "sculpture3.png", position: [70, 22], visible: false },
             sculpture4: { file: "sculpture4.png", position: [70, 22], frames: 4, frameDelay: 10, visible: false },
+            ShortMovie: { file: "LIFFtheater2_movie.png", position: [102, 48], frames: 98, frameDelay: 55, visible: true},
         }
     },
 
