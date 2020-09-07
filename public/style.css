@@ -95,7 +95,7 @@ canvas {
 /*USERNAME*/
 
 .lobby-message {
-    font-size: 128px;
+    font-size: 64px;
     margin-bottom: 32px;
 	color: #ffffff;
 }
