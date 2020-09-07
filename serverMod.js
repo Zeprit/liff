@@ -6,6 +6,8 @@ Their naming convention is roomIdFunction.
 The functions are called by the engine at crucial points, only if they exist.
 */
 
+var singerLyricNumber = 0;
+
 //called at the beginning
 module.exports.initMod = function (io, gameState, DATA) {
     console.log("MOD: Initialized");
@@ -51,6 +53,14 @@ module.exports.initMod = function (io, gameState, DATA) {
         "Hello",
         "Another Mark"
     ];
+
+    global.singerTalk = [
+        "I wanna be the very best,",
+        "That no one ever was.",
+        "To catch them is my real test,",
+        "To train them is my cause.",
+        "POKEMON!"
+    ]
 
     //load extended dictionary, this is 3Mb but only sits on the server and it's used by only one room
     const fs = require('fs');
@@ -152,6 +162,20 @@ module.exports.initMod = function (io, gameState, DATA) {
             colors: [2, 2, 1, 5],
             labelColor: "#1e839d"
         });
+
+        band1.behavior = setTimeout(function ramble() {
+            if(singerLyricNumber < global.singerTalk.length)
+            {
+                band1.talk(global.singerTalk[singerLyricNumber]);
+                singerLyricNumber++;
+            }
+            else
+            {
+                singerLyricNumber = 0;
+                band1.talk(global.singerTalk[singerLyricNumber]);
+            }
+  
+        }, random(2000, 3000));
     
         var band2 = new NPC(
         {
