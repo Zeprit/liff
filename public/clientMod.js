@@ -437,6 +437,10 @@ function firstFloorEnter(playerId, roomId) {
 		e = document.getElementById("talk-form");
 		if (e != null)
 			e.style.display = "none";
+		
+		e = document.getElementById("no-talkie");
+		if (e != null)
+			e.style.display = "block";
 	}
 	
 	function setVideo(videoId, reload)
@@ -475,6 +479,10 @@ function firstFloorEnter(playerId, roomId) {
 			e = document.getElementById("talk-form");
 			if (e != null)
 			  e.style.display = "block";
+			
+			e = document.getElementById("no-talkie");
+		  	if (e != null)
+			  e.style.display = "none";
 
 		}
 		else
