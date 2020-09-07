@@ -173,9 +173,10 @@ module.exports.initMod = function (io, gameState, DATA) {
             {
                 singerLyricNumber = 0;
                 band1.talk(global.singerTalk[singerLyricNumber]);
+                singerLyricNumber++;
             }
 
-        band1.behavior = setTimeout(ramble, random(2000, 3000));
+        band1.behavior = setTimeout(ramble, random(7000, 10000));
   
         }, random(1000, 2000));
     
