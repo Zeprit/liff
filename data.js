@@ -55,7 +55,7 @@ module.exports.ROOMS = {
         //a shade to tint the avatars to simulate light color, #FFFFFF normal
         tint: "#ffbbb8",
         //the html body color can be changed
-        pageBg: "#ab5236",
+        pageBg: "#28170B",
         //minimum height for the speech bubbles
         bubblesY: 50,
         //if spawning directly in this room, top left and bottom right point defining the rectangular spawn area (random within it)
@@ -180,8 +180,8 @@ module.exports.ROOMS = {
         frameDelay: 30,
         avatarScale: 2,
         area: "likelike-backyard-areas.png",
-        tint: "#fdbe4e",
-        pageBg: "#413830",
+        tint: "#3F2F2D",
+        pageBg: "#170102",
         bubblesY: 20,
         spawn: [38, 63, 108, 83],
         areaColors: {
@@ -206,7 +206,7 @@ module.exports.ROOMS = {
         avatarScale: 16,
         area: "photobooth_liff_area.png",
         tint: "#fdbe4e",
-        pageBg: "#413830",
+        pageBg: "#021213",
         bubblesY: 50,
         spawn: [38, 63, 108, 83],
         areaColors: {
@@ -236,7 +236,7 @@ module.exports.ROOMS = {
     LIFFTheater2: {
         bg: "LIFFtheater2.png",
         avatarScale: 2,
-        pageBg: "#e1cdcd",
+        pageBg: "#120906",
         area: "LIFFtheater2_areas.png",
         tint: "#FFFFFF",
         bubblesY: 46,
