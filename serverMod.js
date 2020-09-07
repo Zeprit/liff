@@ -163,7 +163,7 @@ module.exports.initMod = function (io, gameState, DATA) {
             labelColor: "#1e839d"
         });
 
-        band1.behavior = setTimeout(function ramble() {
+        /*band1.behavior = setTimeout(function ramble() {
             if(singerLyricNumber < global.singerTalk.length)
             {
                 band1.talk(global.singerTalk[singerLyricNumber]);
@@ -178,7 +178,7 @@ module.exports.initMod = function (io, gameState, DATA) {
 
         band1.behavior = setTimeout(ramble, random(7000, 10000));
   
-        }, random(1000, 2000));
+        }, random(1000, 2000));*/
     
         var band2 = new NPC(
         {
