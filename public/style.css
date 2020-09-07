@@ -246,6 +246,21 @@ canvas {
 	text-align: center;
 }
 
+#no-talkie {
+	display: block;
+	background: none;
+	/*width: 800px;*/
+	width: 100%;
+	margin: auto;
+}
+
+#no-talkie {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	
+}
+
 /*VIDEO OVERLAYS*/
 #video-container {
 	display: block;
