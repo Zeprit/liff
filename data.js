@@ -190,7 +190,11 @@ module.exports.ROOMS = {
         },
         things: {
             //spreadsheets only 1 row ok?
-            
+            Chair: { file: "LIFFtheater1_ChairsRow.png", frames: 1, frameDelay: 30, position: [1, 170],},
+            Chair1: { file: "LIFFtheater1_ChairsRow.png", frames: 1, frameDelay: 30, position: [1, 155],},
+            Chair2: { file: "LIFFtheater1_ChairsRow.png", frames: 1, frameDelay: 30, position: [1, 140],},
+            Chair3: { file: "LIFFtheater1_ChairsRow.png", frames: 1, frameDelay: 30, position: [1, 125],},
+            Chair4: { file: "LIFFtheater1_ChairsRow.png", frames: 1, frameDelay: 30, position: [1, 110],},
 
         }
     },
