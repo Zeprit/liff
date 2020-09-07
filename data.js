@@ -166,7 +166,7 @@ module.exports.ROOMS = {
         areaColors: {
             //h will be replaced by #
             hff77a8: { cmd: "enter", room: "likelike", label: "Enter LIFF", point: [128, 120], enterPoint: [130, 193], obstacle: false },
-            h7fffb8: { cmd: "text", label: "Greeter", txt: "Welcome to LIFF!", align: "center", lines: 1, point: [117, 145] },
+            h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
         },
         things: {
             greeter: { file: "museumGuard.png", frames: 17, frameDelay: 10, position: [105, 125]/*, label: "Greeter"*/ }
