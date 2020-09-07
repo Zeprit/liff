@@ -225,7 +225,7 @@ module.exports.ROOMS = {
     },
 
     LIFFTheater2: {
-        bg: "firstFloor.png",
+        bg: "LIFFtheater2.png",
         avatarScale: 2,
         pageBg: "#e1cdcd",
         area: "firstFloor-areas.png",
