@@ -123,7 +123,7 @@ canvas {
 	border: none;
 	text-align: center;
 	color: white;
-    background: #ff004d;
+    background: #ff0000;
     outline: none;
     border-bottom: 4px solid#424242;
     margin-left: auto;
@@ -203,7 +203,7 @@ canvas {
 .user-button:active,
 .avatar-button:active,
 .join-button:active {
-    background: #ff77a8;
+    background: #ff0000;
     border-bottom: none;
     border-right: none;
     margin-top: 4px;
@@ -213,14 +213,14 @@ canvas {
 .user-button:hover,
 .avatar-button:hover,
 .join-button:hover {
-	background: #ff77a8;
+	background: #D00000;
 }
 
 /*Animate join to make sure people don't miss it*/
 @keyframes glowing {
-    0% { background-color: #ff004d; }
+    0% { background-color: #ff0000; }
     50% { background-color: #ff77a8;  }
-    100% { background-color: #ff004d;  }
+    100% { background-color: #ff0000;  }
 }
 
 .join-button {
