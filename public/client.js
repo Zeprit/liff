@@ -1562,24 +1562,24 @@ function avatarSelection() {
     var animation = loadAnimation(ss);
 
     //the position is the bottom left
-    previousBody = createSprite(48 * ASSET_SCALE + 14, HEIGHT / 2 + 14);
+    previousBody = createSprite(48 * ASSET_SCALE + 28, HEIGHT / 2 + 28);
     previousBody.addAnimation("default", animation);
     previousBody.animation.stop();
     previousBody.mirrorX(-1);
     menuGroup.add(previousBody);
 
-    nextBody = createSprite(64 * ASSET_SCALE + 14, HEIGHT / 2 + 14);
+    nextBody = createSprite(64 * ASSET_SCALE + 28, HEIGHT / 2 + 28);
     nextBody.addAnimation("default", animation);
     nextBody.animation.stop();
     menuGroup.add(nextBody);
 
-    previousColor = createSprite(175.5 * ASSET_SCALE + 14, HEIGHT / 2 + 14);
+    previousColor = createSprite(175.5 * ASSET_SCALE + 28, HEIGHT / 2 + 28);
     previousColor.addAnimation("default", animation);
     previousColor.animation.stop();
     previousColor.mirrorX(-1);
     menuGroup.add(previousColor);
 
-    nextColor = createSprite(191.5 * ASSET_SCALE + 14, HEIGHT / 2 + 14);
+    nextColor = createSprite(191.5 * ASSET_SCALE + 28, HEIGHT / 2 + 28);
     nextColor.addAnimation("default", animation);
     nextColor.animation.stop();
     menuGroup.add(nextColor);
