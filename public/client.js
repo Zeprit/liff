@@ -1558,7 +1558,7 @@ function avatarSelection() {
     //buttons
     var previousBody, nextBody, previousColor, nextColor;
 
-    var ss = loadSpriteSheet(arrowButton, 28, 28, 3);
+    var ss = loadSpriteSheet(arrowButton, 56, 56, 3);
     var animation = loadAnimation(ss);
 
     //the position is the bottom left
