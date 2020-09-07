@@ -60,7 +60,7 @@ module.exports.initMod = function (io, gameState, DATA) {
         "To catch them is my real test,",
         "To train them is my cause.",
         "POKEMON!"
-    ]
+    ];
 
     //load extended dictionary, this is 3Mb but only sits on the server and it's used by only one room
     const fs = require('fs');
@@ -174,8 +174,10 @@ module.exports.initMod = function (io, gameState, DATA) {
                 singerLyricNumber = 0;
                 band1.talk(global.singerTalk[singerLyricNumber]);
             }
+
+        band1.behavior = setTimeout(ramble, random(2000, 3000));
   
-        }, random(2000, 3000));
+        }, random(1000, 2000));
     
         var band2 = new NPC(
         {
