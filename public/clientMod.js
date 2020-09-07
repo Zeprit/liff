@@ -434,6 +434,9 @@ function firstFloorEnter(playerId, roomId) {
 			// start the video!
 			setVideo("ustrOyrmLOA");
 		}
+		e = document.getElementById("talk-form");
+		if (e != null)
+			e.style.display = "none";
 	}
 	
 	function setVideo(videoId, reload)
@@ -468,6 +471,11 @@ function firstFloorEnter(playerId, roomId) {
 			if (e != null)
 				e.style.display = "none";
 				setVideo("");
+
+			e = document.getElementById("talk-form");
+			if (e != null)
+			  e.style.display = "block";
+
 		}
 		else
 		{
