@@ -97,7 +97,7 @@ module.exports.initMod = function (io, gameState, DATA) {
         {
             id: "paranoid",
             nickName: "Anonymous",
-            room: "secondFloor",
+            room: "likelike",
             x: 23,
             y: 78,
             avatar: 1,
