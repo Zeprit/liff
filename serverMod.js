@@ -107,7 +107,7 @@ module.exports.initMod = function (io, gameState, DATA) {
     {
         id: "paranoid",
         nickName: "Anonymous",
-        room: "likelike",
+        room: "LIFFLobby",
         x: 23,
         y: 78,
         avatar: 1,
@@ -155,7 +155,7 @@ module.exports.initMod = function (io, gameState, DATA) {
         {
             id: "band1",
             nickName: "Singer",
-            room: "likelike",
+            room: "LIFFLobby",
             x: 311,
             y: 224,
             avatar: 1,
@@ -184,7 +184,7 @@ module.exports.initMod = function (io, gameState, DATA) {
         {
             id: "band2",
             nickName: "Guitarist",
-            room: "likelike",
+            room: "LIFFLobby",
             x: 281,
             y: 241,
             avatar: 1,
@@ -196,7 +196,7 @@ module.exports.initMod = function (io, gameState, DATA) {
         {
             id: "band3",
             nickName: "Drummer",
-            room: "likelike",
+            room: "LIFFLobby",
             x: 263,
             y: 221,
             avatar: 1,
@@ -208,7 +208,7 @@ module.exports.initMod = function (io, gameState, DATA) {
         {
             id: "band4",
             nickName: "Tambourine Guy",
-            room: "likelike",
+            room: "LIFFLobby",
             x: 342,
             y: 216,
             avatar: 1,
@@ -220,7 +220,7 @@ module.exports.initMod = function (io, gameState, DATA) {
         {
             id: "band5",
             nickName: "Bassist",
-            room: "likelike",
+            room: "LIFFLobby",
             x: 368,
             y: 232,
             avatar: 1,
