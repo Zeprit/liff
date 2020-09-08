@@ -241,7 +241,7 @@ module.exports.ROOMS = {
         area: "LIFFtheater2_areasv2.png",
         tint: "#1E1D25",
         bubblesY: 10,
-        spawn: [15, 77, 113, 96],
+        spawn: [106, 178, 150, 193],
         areaColors: {
             hffec27: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 197], enterPoint: [215, 39], obstacle: false },
             
