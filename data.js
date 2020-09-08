@@ -94,7 +94,7 @@ module.exports.ROOMS = {
         //they can be animated, mouse reactive and trigger commands like the areas above
         things: {
             //sprite spreadsheets only 1 row ok?
-            
+            PopMachine: { file: "liff-popcorn.png",frames: 11, frameDelay: 10, position: [1, 84], visible: true},
         }
     },
 
