@@ -490,7 +490,7 @@ function firstFloorEnter(playerId, roomId) {
 			console.log(players[playerId].nickName + " Left Freeplay");
 		}
     }
-	function likelikeEnter(playerId, roomId)
+	function LIFFLobbyEnter(playerId, roomId)
 	{
 		if(playerId == me.id)
 		{
