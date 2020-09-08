@@ -59,7 +59,7 @@ module.exports.ROOMS = {
         //minimum height for the speech bubbles
         bubblesY: 50,
         //if spawning directly in this room, top left and bottom right point defining the rectangular spawn area (random within it)
-        spawn: [10, 150, 200, 246],
+        spawn: [106, 171, 153, 193],
         
         //music: "insideliff.mp3",
         //graphics with active areas Sierra Online adventures style
