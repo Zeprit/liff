@@ -184,7 +184,7 @@ module.exports.ROOMS = {
         tint: "#3F2F2D",
         pageBg: "#170102",
         bubblesY: 20,
-        spawn: [38, 63, 108, 83],
+        spawn: [116, 173, 138, 191],
         areaColors: {
             //h will be replaced by #
             hff77a8: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 192], enterPoint: [62, 96], obstacle: false },
