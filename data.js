@@ -252,6 +252,21 @@ module.exports.ROOMS = {
             sculpture3: { file: "sculpture3.png", position: [70, 22], visible: false },
             sculpture4: { file: "sculpture4.png", position: [70, 22], frames: 4, frameDelay: 10, visible: false },
             ShortMovie: { file: "LIFFtheater2_movie.png", position: [91, 20], frames: 98, frameDelay: 55, visible: true},
+
+             //front left to right
+            Chair: { file: "LIFFtheater2_Chair.png", position: [82, 130], visible: true},
+            Chair1: { file: "LIFFtheater2_Chair.png", position: [92, 131], visible: true},
+            Chair3: { file: "LIFFtheater2_Chair.png", position: [105, 131], visible: true},
+            Chair4: { file: "LIFFtheater2_Chair.png", position: [140, 130], visible: true},
+            Chair5: { file: "LIFFtheater2_Chair.png", position: [150, 130], visible: true},
+            Chair6: { file: "LIFFtheater2_Chair.png", position: [161, 129], visible: true},
+            //back left to right
+            Chair7: { file: "LIFFtheater2_Chair.png", position: [87, 150], visible: true},
+            Chair8: { file: "LIFFtheater2_Chair.png", position: [98, 150], visible: true},
+            Chair9: { file: "LIFFtheater2_Chair.png", position: [111, 155], visible: true},
+            Chair10: { file: "LIFFtheater2_Chair.png", position: [146, 150], visible: true},
+            Chair11: { file: "LIFFtheater2_Chair.png", position: [157, 150], visible: true},
+            Chair12: { file: "LIFFtheater2_Chair.png", position: [170, 148], visible: true},
         }
     },
 
