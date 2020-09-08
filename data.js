@@ -47,7 +47,7 @@ module.exports.ROOMS = {
         //the background graphics, it can be a spreadsheet
         bg: "liff-lobby.png",
         //if spreadsheet frames
-        frames: 2,
+        frames: 6,
         //if animated, animation speed in refreshes (frame dependent)
         frameDelay: 30,
         //normally 2, avatars can be scaled to simulate camera distance
