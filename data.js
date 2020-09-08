@@ -243,7 +243,7 @@ module.exports.ROOMS = {
         bubblesY: 10,
         spawn: [106, 178, 150, 193],
         areaColors: {
-            hffec27: { cmd: "enter", room: "LIFFLobby", label: "Main Hall", point: [126, 197], enterPoint: [215, 39], obstacle: false },
+            hffec27: { cmd: "enter", room: "LIFFLobby", label: "Main Hall", point: [126, 197], enterPoint: [226, 55], obstacle: false },
             
         },
         things: {
