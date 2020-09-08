@@ -43,7 +43,7 @@ module.exports.SOUNDS = [
 
 module.exports.ROOMS = {
 
-    likelike: {
+    LIFFLobby: {
         //the background graphics, it can be a spreadsheet
         bg: "liff-lobby.png",
         //if spreadsheet frames
@@ -166,7 +166,7 @@ module.exports.ROOMS = {
         //music: "outsideliff.mp3",
         areaColors: {
             //h will be replaced by #
-            hff77a8: { cmd: "enter", room: "likelike", label: "Enter LIFF", point: [128, 120], enterPoint: [130, 193], obstacle: false },
+            hff77a8: { cmd: "enter", room: "LIFFLobby", label: "Enter LIFF", point: [128, 120], enterPoint: [130, 193], obstacle: false },
             h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
         },
         things: {
@@ -187,7 +187,7 @@ module.exports.ROOMS = {
         spawn: [116, 173, 138, 191],
         areaColors: {
             //h will be replaced by #
-            hff77a8: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 192], enterPoint: [62, 96], obstacle: false },
+            hff77a8: { cmd: "enter", room: "LIFFLobby", label: "Main Hall", point: [126, 192], enterPoint: [62, 96], obstacle: false },
         },
         things: {
             //spreadsheets only 1 row ok?
@@ -212,7 +212,7 @@ module.exports.ROOMS = {
         spawn: [38, 63, 108, 83],
         areaColors: {
             //h will be replaced by #
-            h0ddee3: { cmd: "enter", room: "likelike", label: "Main Hall", point: [180, 194], enterPoint: [92, 116], obstacle: false },
+            h0ddee3: { cmd: "enter", room: "LIFFLobby", label: "Main Hall", point: [180, 194], enterPoint: [92, 116], obstacle: false },
         },
         things: {
             //spreadsheets only 1 row ok?
@@ -243,7 +243,7 @@ module.exports.ROOMS = {
         bubblesY: 10,
         spawn: [106, 178, 150, 193],
         areaColors: {
-            hffec27: { cmd: "enter", room: "likelike", label: "Main Hall", point: [126, 197], enterPoint: [215, 39], obstacle: false },
+            hffec27: { cmd: "enter", room: "LIFFLobby", label: "Main Hall", point: [126, 197], enterPoint: [215, 39], obstacle: false },
             
         },
         things: {
