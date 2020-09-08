@@ -76,7 +76,7 @@ module.exports.ROOMS = {
             //obstacle: is the area walkable
             hffec27: { cmd: "enter", room: "LIFFTheater1", label: "Theater Room 1", point: [62, 96], enterPoint: [126, 192], obstacle: false },
             h00e436: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [132, 192], enterPoint: [128, 118], obstacle: false },
-            hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [215, 39], enterPoint: [126, 192], obstacle: false },
+            hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [226, 52], enterPoint: [126, 192], obstacle: false },
             hd5521b: { cmd: "enter", room: "PhotoBooth", label: "Photo Booth", point: [92, 116], enterPoint: [156, 186], obstacle: false },
 
             //text displays a text only on the client
@@ -238,7 +238,7 @@ module.exports.ROOMS = {
         bg: "LIFFtheater2.png",
         avatarScale: 2,
         pageBg: "#120906",
-        area: "LIFFtheater2_areas.png",
+        area: "LIFFtheater2_areasv2.png",
         tint: "#1E1D25",
         bubblesY: 10,
         spawn: [15, 77, 113, 96],
