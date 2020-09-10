@@ -55,11 +55,7 @@ module.exports.initMod = function (io, gameState, DATA) {
     ];
 
     global.singerTalk = [
-        "I wanna be the very best,",
-        "That no one ever was.",
-        "To catch them is my real test,",
-        "To train them is my cause.",
-        "POKEMON!"
+        ""
     ];
 
     //load extended dictionary, this is 3Mb but only sits on the server and it's used by only one room
@@ -102,7 +98,7 @@ module.exports.initMod = function (io, gameState, DATA) {
 
 
     //Example of NPC creation and behavior
-
+    /*
     var npc = new NPC(
     {
         id: "paranoid",
@@ -113,7 +109,7 @@ module.exports.initMod = function (io, gameState, DATA) {
         avatar: 1,
         colors: [2, 2, 1, 5],
         labelColor: "#1e839d"
-    });
+    });*/
 
     npc.behavior = setTimeout(function ramble() {
         var dice = random(0, 100);
