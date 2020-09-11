@@ -156,7 +156,7 @@ canvas {
 
 /*bottom link*/
 .info {
-	
+	font-size: 16px;
 	position: absolute;
 	right: 0px;
 	bottom: 0px;
@@ -167,11 +167,13 @@ canvas {
 }
 
 .info a {
+	font-size: 16px;
 	text-decoration: none;
 	color: white;
 }
 
 .info a:hover {
+	font-size: 16px;
 	text-decoration: none;
 	color:#ff77a8;;
 }
