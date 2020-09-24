@@ -167,13 +167,13 @@ canvas {
 }
 
 .info a {
-	font-size: 16px;
+	font-size: 24px;
 	text-decoration: none;
 	color: white;
 }
 
 .info a:hover {
-	font-size: 16px;
+	font-size: 24px;
 	text-decoration: none;
 	color:#ff77a8;;
 }
