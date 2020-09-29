@@ -64,7 +64,7 @@ module.exports.ROOMS = {
         //music: "insideliff.mp3",
         //graphics with active areas Sierra Online adventures style
         //color coded as below, #FFFFFF is walkable, transparent is obstacle
-        area: "likelike-areas-pico.png",
+        area: "liff-lobby-areas.png",
         //each color can trigger a command, the destination needs to be reached first
         //the "h" is replaced by # to identify color
         areaColors: {
@@ -78,6 +78,17 @@ module.exports.ROOMS = {
             h00e436: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [132, 192], enterPoint: [128, 118], obstacle: false },
             hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [226, 52], enterPoint: [126, 192], obstacle: false },
             hd5521b: { cmd: "enter", room: "PhotoBooth", label: "Photo Booth", point: [92, 116], enterPoint: [156, 186], obstacle: false },
+            
+            h00c6ba: { cmd: "text", label: "DeLIFFeroo", txt: "For all your food-related needs", align: "center", lines: 1, point: [117, 145] },
+            he35bc8: { cmd: "text", url: "https://www.grindstore.com/products/we-are-the-weirdos-mister-patch-710986.html", label: "Merch", txt: "T-shirts that blow your socks off! Click on this box to go to the store!", align: "center", lines: 3, point: [117, 145] },
+            h1ea944: { cmd: "text", label: "Pronck-LIFF-Beer", txt: "One tasty adult beverage", align: "center", lines: 1, point: [117, 145] },
+            h160c19: { cmd: "text", label: "Pulp Fiction", align: "center", lines: 1, point: [117, 145] },
+            h2f77ba: { cmd: "text", label: "Up", align: "center", lines: 1, point: [117, 145] },
+            h7c6d1f: { cmd: "text", label: "Jurassic Park", align: "center", lines: 1, point: [117, 145] },
+            h41607a: { cmd: "text", label: "Jaws", align: "center", lines: 1, point: [117, 145] },
+            h538d20: { cmd: "text", label: "Alien", align: "center", lines: 1, point: [117, 145] },
+            h388841: { cmd: "text", label: "Parasite", align: "center", lines: 1, point: [117, 145] },
+            hd5c929: { cmd: "text", label: "Delicious Popcorn", align: "center", lines: 1, point: [117, 145] },
 
             //text displays a text only on the client
             //txt: the text
