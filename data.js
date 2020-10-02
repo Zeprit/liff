@@ -119,6 +119,7 @@ module.exports.ROOMS = {
             barperson3: { file: "medewerker4.png", frames: 1, frameDelay: 10, position: [39, 144], label: "Waiter" },
             lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70], label: "Festival Attendant" },
             lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [200, 37], label: "Festival Attendant"},
+            infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 10, position: [164, 181], label: "Info Guy" },
         }
     },
 
