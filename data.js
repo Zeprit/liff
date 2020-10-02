@@ -89,7 +89,7 @@ module.exports.ROOMS = {
             h538d20: { cmd: "text", label: "Alien", align: "center", lines: 1, point: [117, 145] },
             h388841: { cmd: "text", label: "Parasite", align: "center", lines: 1, point: [117, 145] },
             hd5c929: { cmd: "text", label: "Delicious Popcorn", align: "center", lines: 1, point: [117, 145] },
-            h35e5ba: { cmd: "text", url: "https://shop.liff.nl/", label: "Public scores", txt: "Top 10 LIFF films,\nBased on audience scores", align: "left", lines: 2, point: [128, 106]},
+            h35e5ba: { cmd: "text", url: "https://shop.liff.nl/", label: "Audience scores", txt: "Top 10 LIFF films,\nBased on audience scores", align: "left", lines: 2, point: [128, 106]},
 
             
             h7fffb8: { cmd: "text", label: "Waiter", align: "center", lines: 1, point: [117, 145] },
