@@ -95,6 +95,7 @@ module.exports.ROOMS = {
             h7fffb8: { cmd: "text", label: "Waiter", align: "center", lines: 1, point: [117, 145] },
             h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
             h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
+            h7fffb8: { cmd: "text", label: "Info Guy", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
 
 
             //text displays a text only on the client
