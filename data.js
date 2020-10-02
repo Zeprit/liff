@@ -120,9 +120,9 @@ module.exports.ROOMS = {
             barperson1: { file: "medewerker1.png", frames: 1, frameDelay: 10, position: [49, 163], label: "Waiter" },
             barperson2: { file: "medewerker3.png", frames: 1, frameDelay: 10, position: [13, 150], label: "Waiter" },
             barperson3: { file: "medewerker4.png", frames: 1, frameDelay: 10, position: [39, 149], label: "Waiter" },
-            lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70], label: "LIFF Personel" },
-            lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [187, 37], label: "LIFF Personel"},
-            infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 8, position: [158, 171], label: "LIFF Infomaniac", command: { cmd: "text", txt: "TRY NOT TO SHOOCK SO HARD HAHA", align: "left", lines: 5, label: "Wie hadden vroeger de grootste handen? De Batavieren. Want die trokken de Rijn af!!" } },
+            lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70], label: "LIFF Personel", command: { cmd: "text", txt: "Ssssht, there are movie trailers playing in this room. Please be quiet when you enter.", align: "left", lines: 5 } },
+            lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [190, 37], label: "LIFF Personel", command: { cmd: "text", txt: "There is a super underground indie movie playing in this room! Enjoy!", align: "left", lines: 5 }},
+            infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 8, position: [156, 166], label: "LIFF Infomaniac", command: { cmd: "text", txt: "Wie hadden vroeger de grootste handen? De Batavieren. Want die trokken de Rijn af!!", align: "left", lines: 5 } },
             delifferoosign: { file: "liff-menuboard.png", frames: 1, frameDelay: 10, position: [73,148], visible: true },
         }
     },
