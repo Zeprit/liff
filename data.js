@@ -117,9 +117,9 @@ module.exports.ROOMS = {
             //sprite spreadsheets only 1 row ok?
             PopMachine: { file: "liff-popcorn.png",frames: 11, frameDelay: 10, position: [1, 84], visible: true},
             MicStand: { file: "liff-lobby-mic.png", position: [150, 100], visible: true},
-            barperson1: { file: "medewerker1.png", frames: 1, frameDelay: 10, position: [47, 180], label: "Waiter" },
+            barperson1: { file: "medewerker1.png", frames: 1, frameDelay: 10, position: [49, 163], label: "Waiter" },
             barperson2: { file: "medewerker3.png", frames: 1, frameDelay: 10, position: [13, 150], label: "Waiter" },
-            barperson3: { file: "medewerker4.png", frames: 1, frameDelay: 10, position: [39, 144], label: "Waiter" },
+            barperson3: { file: "medewerker4.png", frames: 1, frameDelay: 10, position: [39, 149], label: "Waiter" },
             lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70], label: "Festival Attendant" },
             lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [200, 37], label: "Festival Attendant"},
             infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 10, position: [164, 181], label: "Info Guy" },
