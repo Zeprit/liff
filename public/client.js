@@ -250,6 +250,8 @@ var descripText = ["This half tower, half human is at LIFF to make some new frie
                   "'Frogstar productions, does anyone know them? Not to sound like a snob,\nbut they are reeeally indie so you probably don't.'"]
 
 var medewerker = true;
+var rw = 10;
+var rh = 10;
 
 /*
 Things are quite asynchronous here. This is the startup sequence:
@@ -1529,8 +1531,8 @@ function update() {
                 if (longTextAlign == "center" && longTextLines == 1)
                     tw = textWidth(longText + " ");
 
-                var rw = tw + LONG_TEXT_PADDING * 2;
-                var rh = th + LONG_TEXT_PADDING * 2;
+                rw = tw + LONG_TEXT_PADDING * 2;
+                rh = th + LONG_TEXT_PADDING * 2;
 
                 fill(UI_BG);
 
@@ -2020,8 +2022,10 @@ function canvasReleased() {
         //exit text
         if (longText != "" && longText != SETTINGS.INTRO_TEXT) {
 
-            if (longTextLink != "")
-                window.open(longTextLink, "_blank");
+            if (((mouseY) >= ((height / 2) - (rh / 2) )) && ((mouseY) <= ((height / 2) + (rh / 2) )) && ((mouseX) >= ((width / 2) - (rw / 2) )) && ((mouseX) <= ((width / 2) + (rw / 2) )) ){
+              if (longTextLink != "")
+                  window.open(longTextLink, "_blank");
+            }
 
             longText = "";
             longTextLink = "";
