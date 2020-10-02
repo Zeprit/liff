@@ -53,7 +53,7 @@ module.exports.ROOMS = {
         //normally 2, avatars can be scaled to simulate camera distance
         avatarScale: 2,
         //a shade to tint the avatars to simulate light color, #FFFFFF normal
-        tint: "#ffbbb8",
+        tint: "#ffffff",
         //the html body color can be changed
         pageBg: "#28170B",
         //minimum height for the speech bubbles
@@ -121,8 +121,8 @@ module.exports.ROOMS = {
             barperson2: { file: "medewerker3.png", frames: 1, frameDelay: 10, position: [13, 150], label: "Waiter" },
             barperson3: { file: "medewerker4.png", frames: 1, frameDelay: 10, position: [39, 149], label: "Waiter" },
             lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70], label: "Festival Attendant" },
-            lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [200, 37], label: "Festival Attendant"},
-            infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 10, position: [164, 181], label: "Info Guy" },
+            lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [187, 37], label: "Festival Attendant"},
+            infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 8, position: [158, 171], label: "Info Guy" },
             delifferoosign: { file: "liff-menuboard.png", frames: 1, frameDelay: 10, position: [73,148], visible: true },
         }
     },
@@ -138,7 +138,7 @@ module.exports.ROOMS = {
         //normally 2, avatars can be scaled to simulate camera distance
         avatarScale: 2,
         //a shade to tint the avatars to simulate light color, #FFFFFF normal
-        tint: "#fa84af",
+        tint: "#ffffff",
         //the html body color can be changed
         pageBg: "#6a2545",
         //minimum height for the speech bubbles
@@ -188,7 +188,7 @@ module.exports.ROOMS = {
         pageBg: "#011221",
         area: "likelikeOutside-areas.png",
         //tint: "#fdeac8",
-        tint: "#B7B4F1",
+        tint: "#ffffff",
         bubblesY: 44,
         spawn: [94, 166, 163, 199],
         //music: "outsideliff.mp3",
@@ -209,7 +209,7 @@ module.exports.ROOMS = {
         frameDelay: 30,
         avatarScale: 2,
         area: "likelike-backyard-areas.png",
-        tint: "#3F2F2D",
+        tint: "#ffffff",
         pageBg: "#170102",
         bubblesY: 20,
         spawn: [116, 173, 138, 191],
@@ -234,7 +234,7 @@ module.exports.ROOMS = {
         frameDelay: 30,
         avatarScale: 16,
         area: "photobooth_liff_area.png",
-        tint: "#fdbe4e",
+        tint: "#ffffff",
         pageBg: "#021213",
         bubblesY: 50,
         spawn: [38, 63, 108, 83],
@@ -267,12 +267,12 @@ module.exports.ROOMS = {
         avatarScale: 2,
         pageBg: "#120906",
         area: "LIFFtheater2_areasv2.png",
-        tint: "#1E1D25",
+        tint: "#ffffff",
         bubblesY: 10,
         spawn: [106, 178, 150, 193],
         areaColors: {
             hffec27: { cmd: "enter", room: "LIFFLobby", label: "Main Hall", point: [126, 197], enterPoint: [226, 55], obstacle: false },
-            
+        
         },
         things: {
             //sprite spreadsheets only 1 row ok?
