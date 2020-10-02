@@ -80,7 +80,7 @@ module.exports.ROOMS = {
             hd5521b: { cmd: "enter", room: "PhotoBooth", label: "Photo Booth", point: [92, 116], enterPoint: [156, 186], obstacle: false },
             
             h00c6ba: { cmd: "text", label: "DeLIFFeroo", txt: "For all your food-related needs", align: "center", lines: 1, point: [117, 145] },
-            he35bc8: { cmd: "text", url: "https://shop.liff.nl/", label: "Merch", txt: "T-shirts that blow your socks off! Click on this box to go to the store!", align: "center", lines: 3, point: [117, 145] },
+            he35bc8: { cmd: "text", url: "https://shop.liff.nl/", label: "Merch", txt: "T-shirts that blow your socks off! Click anywhere to go to the store!", align: "center", lines: 3, point: [117, 145] },
             h1ea944: { cmd: "text", label: "Pronck-LIFF-Beer", txt: "One tasty adult beverage", align: "center", lines: 1, point: [117, 145] },
             h160c19: { cmd: "text", label: "Pulp Fiction", align: "center", lines: 1, point: [117, 145] },
             h2f77ba: { cmd: "text", label: "Up", align: "center", lines: 1, point: [117, 145] },
