@@ -220,7 +220,7 @@ var descripText = ["A famous actress, model and singer.\n Not many people know t
                   "Invented the pirate word 'Arrr'\nwhen they stubbed their bony toe.\n Now used by pirates all around.",
                   "This witch starred in a really wicked musical.\nRumor has it that she's getting her own movie as well!\nAll because she terrorised a peculiar group of misfits.",
                   "This green ogre loves living life in his own private swamp.\nHis best friend is a donkey, who is not quite the sharpest tool in the shed.",
-                  "This velociraptor has a popcorn kernel stuck between their teeth.\nThey still haven't been able to remove it.\n Those blasted tiny arms\…\ They'll be the death of the dinosaur for sure.",
+                  "This velociraptor has a popcorn kernel stuck between their teeth.\nThey still haven't been able to remove it.\n Those blasted tiny arms\...\ They'll be the death of the dinosaur for sure.",
                   "He said he'd be back and now this cybernetic android finally is indeed... Back!\nHe had to trade his shotgun for a toy one, though. Can't be too safe...",
                   "Someone did it again\...\ They peed on this dude's rug again.\nArmed with a delicious 'white russian', he's out looking for the culprit.",
                   "She's the princess of an undersea kingdom, with an awesome fishy body.\nNot to be confused with the popular laundry detergent brand.",
