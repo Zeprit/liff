@@ -123,6 +123,7 @@ module.exports.ROOMS = {
             lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70], label: "Festival Attendant" },
             lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [200, 37], label: "Festival Attendant"},
             infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 10, position: [164, 181], label: "Info Guy" },
+            delifferoosign: { file: "liff-menuboard.png", frames: 1, frameDelay: 10, position: [73,148], visible: true },
         }
     },
 
