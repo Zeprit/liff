@@ -79,8 +79,8 @@ module.exports.ROOMS = {
             hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [226, 52], enterPoint: [126, 192], obstacle: false },
             hd5521b: { cmd: "enter", room: "PhotoBooth", label: "Photo Booth", point: [92, 116], enterPoint: [156, 186], obstacle: false },
             
-            h00c6ba: { cmd: "text", url: "https://www.liff.nl/delifferoo", label: "DeLIFFeroo", txt: "For all your food-related needs", align: "center", lines: 1, point: [78,170] },
-            he35bc8: { cmd: "text", url: "https://shop.liff.nl/", label: "Merch", txt: "T-shirts that blow your socks off! Click anywhere to go to the store!", align: "center", lines: 3, point: [223, 175] },
+            h00c6ba: { cmd: "text", url: "https://www.liff.nl/delifferoo", label: "DeLIFFeroo", txt: "For all your food-related needs.\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [78,170] },
+            he35bc8: { cmd: "text", url: "https://shop.liff.nl/", label: "Merch", txt: "T-shirts that blow your socks off!\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [223, 175] },
             h1ea944: { cmd: "text", label: "Pronck-LIFF-Beer", txt: "One tasty adult beverage", align: "center", lines: 1, point: [117, 145] },
             h160c19: { cmd: "text", label: "Pulp Fiction", align: "center", lines: 1, point: [117, 145] },
             h2f77ba: { cmd: "text", label: "Up", align: "center", lines: 1, point: [117, 145] },
@@ -114,9 +114,9 @@ module.exports.ROOMS = {
             barperson2: { file: "medewerker3.png", frames: 1, frameDelay: 10, position: [13, 150], label: "Waiter" },
             barperson3: { file: "medewerker4.png", frames: 1, frameDelay: 10, position: [39, 149], label: "Waiter" },
             lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70], label: "LIFF Personel", command: { cmd: "text", txt: "Ssssht, there are movie trailers playing in this room. Please be quiet when you enter.", align: "left", lines: 5, point: [22, 88] } },
-            lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [192, 37], label: "LIFF Personel", command: { cmd: "text", txt: "There is a super underground indie movie playing in this room! Enjoy!", align: "left", lines: 5, point: [204, 55] }},
-            infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 8, position: [156, 166], label: "LIFF Infomaniac", command: { cmd: "text", txt: "Wie hadden vroeger de grootste handen? De Batavieren. Want die trokken de Rijn af!!", align: "left", lines: 5, point: [154, 184] } },
-            delifferoosign: { file: "liff-menuboard.png", frames: 1, frameDelay: 10, position: [73,148], label: "Gewoon een info bord niets geks!", visible: true, command: { cmd: "text", txt: "Vriendschap is een illusie. \nVriendschap is een droom.", url: "https://www.liff.nl/delifferoo", align: "left", lines: 5, point: [78,170] } },
+            lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [192, 37], label: "LIFF Personel", command: { cmd: "text", txt: "There is a super underground indie movie premiering in this room, a chance of a life-time!", align: "left", lines: 5, point: [204, 55] }},
+            infoperson: { file: "medewerker6.png", frames: 30, frameDelay: 8, position: [156, 166], label: "Kasper the friendly Host", command: { cmd: "text", txt: "Hi, welcome to the LIFF online hub, I'm so glad you're visiting! Here you can walk around and talk to other film-fanatics. Don't forget to check out the merch, food, or theater rooms. Enjoy!", align: "left", lines: 8, point: [154, 184] } },
+            delifferoosign: { file: "liff-menuboard.png", frames: 1, frameDelay: 10, position: [73,148], label: "DeLIFFeroo", visible: true, command: { cmd: "text", txt: "For all your food-related needs.\n\nClick or Tap on this box to visit the store.", url: "https://www.liff.nl/delifferoo", align: "center", lines: 5, point: [78,170] } },
         }
     },
 
