@@ -81,7 +81,7 @@ module.exports.ROOMS = {
             
             h00c6ba: { cmd: "text", url: "https://www.liff.nl/delifferoo", label: "DeLIFFeroo", txt: "For all your food-related needs.\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [78,170] },
             he35bc8: { cmd: "text", url: "https://shop.liff.nl/", label: "Merch", txt: "T-shirts that blow your socks off!\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [223, 175] },
-            h1ea944: { cmd: "text", label: "Pronck-LIFF-Beer", txt: "One tasty adult beverage", align: "center", lines: 1, point: [117, 145] },
+            h1ea944: { cmd: "text", label: "Pronck-LIFF-Beer", align: "center", lines: 1 },
             h160c19: { cmd: "text", label: "Pulp Fiction", align: "center", lines: 1, point: [117, 145] },
             h2f77ba: { cmd: "text", label: "Up", align: "center", lines: 1, point: [117, 145] },
             h7c6d1f: { cmd: "text", label: "Jurassic Park", align: "center", lines: 1, point: [117, 145] },
