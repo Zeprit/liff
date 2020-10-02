@@ -89,6 +89,13 @@ module.exports.ROOMS = {
             h538d20: { cmd: "text", label: "Alien", align: "center", lines: 1, point: [117, 145] },
             h388841: { cmd: "text", label: "Parasite", align: "center", lines: 1, point: [117, 145] },
             hd5c929: { cmd: "text", label: "Delicious Popcorn", align: "center", lines: 1, point: [117, 145] },
+            
+            h7fffb8: { cmd: "text", label: "Waiter", align: "center", lines: 1, point: [117, 145] },
+            h7fffb8: { cmd: "text", label: "Waiter", align: "center", lines: 1, point: [117, 145] },
+            h7fffb8: { cmd: "text", label: "Waiter", align: "center", lines: 1, point: [117, 145] },
+            h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
+            h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
+
 
             //text displays a text only on the client
             //txt: the text
@@ -107,11 +114,11 @@ module.exports.ROOMS = {
             //sprite spreadsheets only 1 row ok?
             PopMachine: { file: "liff-popcorn.png",frames: 11, frameDelay: 10, position: [1, 84], visible: true},
             MicStand: { file: "liff-lobby-mic.png", position: [150, 100], visible: true},
-            barperson1: { file: "medewerker1.png", frames: 1, frameDelay: 10, position: [47, 180] },
-            barperson2: { file: "medewerker3.png", frames: 1, frameDelay: 10, position: [13, 150] },
-            barperson3: { file: "medewerker4.png", frames: 1, frameDelay: 10, position: [39, 144] },
-            lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70] },
-            lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [200, 37] }
+            barperson1: { file: "medewerker1.png", frames: 1, frameDelay: 10, position: [47, 180], label: "Waiter" },
+            barperson2: { file: "medewerker3.png", frames: 1, frameDelay: 10, position: [13, 150], label: "Waiter" },
+            barperson3: { file: "medewerker4.png", frames: 1, frameDelay: 10, position: [39, 144], label: "Waiter" },
+            lobbyperson1: { file: "medewerker2.png", frames: 1, frameDelay: 10, position: [10, 70], label: "Festival Attendant" },
+            lobbyperson2: { file: "medewerker5.png", frames: 1, frameDelay: 10, position: [200, 37], label: "Festival Attendant" }
         }
     },
 
