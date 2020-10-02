@@ -91,13 +91,6 @@ module.exports.ROOMS = {
             hd5c929: { cmd: "text", label: "Delicious Popcorn", align: "center", lines: 1, point: [117, 145] },
             h35e5ba: { cmd: "text", url: "https://shop.liff.nl/", label: "Audience scores", txt: "Top 10 LIFF films,\nbased on audience scores", align: "left", lines: 2, point: [128, 106]},
 
-            
-            h7fffb8: { cmd: "text", label: "Waiter", align: "center", lines: 1, point: [117, 145] },
-            h7fffb8: { cmd: "text", label: "Waiter", align: "center", lines: 1, point: [117, 145] },
-            h7fffb8: { cmd: "text", label: "Waiter", align: "center", lines: 1, point: [117, 145] },
-            h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
-            h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
-            h7fffb8: { cmd: "text", label: "Info Guy", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
 
 
             //text displays a text only on the client
@@ -195,10 +188,16 @@ module.exports.ROOMS = {
         areaColors: {
             //h will be replaced by #
             hff77a8: { cmd: "enter", room: "LIFFLobby", label: "Enter LIFF", point: [128, 120], enterPoint: [130, 193], obstacle: false },
-            h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
+            //h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
+            h00c6ba: { cmd: "text", label: "DeLIFFeroo bike", align: "center", lines: 1 },
+            hffb000: { cmd: "text", label: "Lumière in moonlight", align: "center", lines: 1 },
+            had7239: { cmd: "text", label: "Remember me", align: "center", lines: 1 },
+            h396ead: { cmd: "text", label: "when the stars", align: "center", lines: 1 },
+            hd8a255: { cmd: "text", label: "come out.", align: "center", lines: 1 },
+            h00ff75: { cmd: "text", label: "I wonder who lives here.", align: "center", lines: 1 },
         },
         things: {
-            greeter: { file: "museumGuard.png", frames: 17, frameDelay: 10, position: [105, 125], label: "Festival Attendant" },
+            greeter: { file: "museumGuard.png", frames: 17, frameDelay: 10, position: [105, 125], label: "Festival Attendant", command: { cmd: "text", txt: "Welcome to Leiden International Film Festival!\nClick or tap on the front door to enter!", align: "left", lines: 5, point: [116,143] } },
 
         }
     },
