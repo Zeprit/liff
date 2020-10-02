@@ -193,7 +193,7 @@ module.exports.ROOMS = {
             h7fffb8: { cmd: "text", label: "Festival Attendant", txt: "Welcome to Leiden International Film Festival!", align: "center", lines: 1, point: [117, 145] },
         },
         things: {
-            greeter: { file: "museumGuard.png", frames: 17, frameDelay: 10, position: [105, 125]/ label: "Festival Attendant" },
+            greeter: { file: "museumGuard.png", frames: 17, frameDelay: 10, position: [105, 125], label: "Festival Attendant" },
 
         }
     },
