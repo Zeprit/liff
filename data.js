@@ -6,40 +6,8 @@ module.exports.SETTINGS = {
     //minimum time between talk messages enforced by both client and server
     ANTI_SPAM: 1000,
     //shows up at first non lurking login
-    INTRO_TEXT: "Click/tap to move"
+    INTRO_TEXT: "Click or Tap to move"
 };
-
-//miscellaneous assets to preload
-module.exports.IMAGES = [
-    ["sheepIdle", "sheep-idle.png"],
-    ["sheepWalk", "sheep-walk.png"],
-    ["wifeWalk", "wife.png"],
-    ["wifeEmote", "wife-emote.png"],
-    ["husbandWalk", "husband.png"],
-    ["husbandEmote", "husband-emote.png"],
-    ["child1Walk", "child1.png"],
-    ["child1Emote", "child1-emote.png"],
-    ["child2Walk", "child2.png"],
-    ["child2Emote", "child2-emote.png"],
-    ["child3Walk", "child3.png"],
-    ["child3Emote", "child3-emote.png"],
-    ["uncleWalk", "uncle.png"],
-    ["uncleEmote", "uncle-emote.png"],
-    ["milkmanWalk", "milkman.png"],
-    ["milkmanEmote", "milkman-emote.png"],
-    ["boyfriendWalk", "child-boyfriend.png"],
-    ["boyfriendEmote", "child-boyfriend-emote.png"],
-    ["flyWalk", "fly.png"],
-    ["flyEmote", "fly-emote.png"]
-];
-
-//miscellaneous sounds to preload
-module.exports.SOUNDS = [
-    ["beat1", "beat1.ogg"], //credit https://www.youtube.com/watch?v=ugLVpZm69DE
-    ["beat2", "beat2.ogg"], // credit https://www.youtube.com/watch?v=dPdoxIz0w24
-    ["beat3", "beat3.ogg"], //credit https://www.youtube.com/watch?v=XShEWT4MwJs
-    ["DJStop", "DJStop.mp3"]
-];
 
 module.exports.ROOMS = {
 
@@ -90,18 +58,6 @@ module.exports.ROOMS = {
             h388841: { cmd: "text", label: "Parasite", align: "center", lines: 1 },
             hd5c929: { cmd: "text", label: "Delicious Popcorn", align: "center", lines: 1 },
             h35e5ba: { cmd: "text", url: "https://shop.liff.nl/", label: "Audience scores", txt: "The Top 10 LIFF Films\nbased on audience scores.\n\nClick or Tap on this box to see", align: "center", lines: 4, point: [128, 106]},
-
-
-
-            //text displays a text only on the client
-            //txt: the text
-            //align: center or left
-            //lines: manual number of lines, p5 doesn't understand line breaks
-            //url: uptionally open a page on click
-            hff004d: { cmd: "text", txt: "ENNUIGI\nby Josh Millard, 2015\nClick to play.\nControls: Arrow keys.", align: "left", lines: 4, url: "https://www.lexaloffle.com/bbs/?tid=2232", label: "An existential game", point: [34, 78], obstacle: true },
-            hff77a8: { cmd: "text", txt: "STRUNG OUT IN HEAVEN'S HIGH\nby Sean S. LeBlanc\nand Ian Martin, 2016\nClick to play.\nControls: Arrow keys + Z.", align: "left", lines: 5, url: "https://www.lexaloffle.com/bbs/?tid=3941", label: "A trippy game", point: [64, 78], obstacle: true },
-            hffccaa: { cmd: "text", txt: "GET COMFORTABLE\nby mcccclean, 2018\nClick to play.\nControls: Arrow keys.", align: "left", lines: 4, url: "https://mcccclean.itch.io/get-comfortable", label: "A snuggly game", point: [92, 78], obstacle: true },
-            h83769c: { cmd: "text", txt: "HYBRIS\nby Benjamin Soule', 2015\nClick to play.\nControls: Arrow keys + Z.", align: "left", lines: 4, url: "https://www.lexaloffle.com/bbs/?tid=2897", label: "A viral game", point: [16, 82], obstacle: true },
         },
         //list of sprites to create in the room
         //sprites are rendered according to depth sort so they can appear above the avatars unlike the background
@@ -235,7 +191,7 @@ module.exports.ROOMS = {
     Sewer: {
         bg: "LIFFSewer.png",
         frames: 14,
-        frameDelay: 30,
+        frameDelay: 20,
         avatarScale: 4,
         area: "LIFFSewerAreas.png",
         tint: "#ffffff",
@@ -272,7 +228,7 @@ module.exports.ROOMS = {
         things: {
             //spreadsheets only 1 row ok?
             
-
+            
         }
     },
 
