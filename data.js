@@ -78,12 +78,12 @@ module.exports.ROOMS = {
             h00e436: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [132, 192], enterPoint: [128, 118], obstacle: false },
             hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [226, 52], enterPoint: [126, 192], obstacle: false },
             hd5521b: { cmd: "enter", room: "PhotoBooth", label: "Photo Booth", point: [92, 116], enterPoint: [156, 186], obstacle: false },
+            h2f77ba: { cmd: "enter", room: "Sewer", label: "Shawshank Redemption", point: [128, 105], enterPoint: [215, 150], obstacle: false },
             
             h00c6ba: { cmd: "text", url: "https://www.liff.nl/delifferoo", label: "DeLIFFeroo", txt: "For all your food-related needs.\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [78,170] },
             he35bc8: { cmd: "text", url: "https://shop.liff.nl/", label: "Merch", txt: "T-shirts that blow your socks off!\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [223, 175] },
             h1ea944: { cmd: "text", label: "Pronck-LIFF-Beer", align: "center", lines: 1 },
             h160c19: { cmd: "text", label: "Pulp Fiction", align: "center", lines: 1},
-            h2f77ba: { cmd: "text", label: "Up", align: "center", lines: 1 },
             h7c6d1f: { cmd: "text", label: "Jurassic Park", align: "center", lines: 1 },
             h41607a: { cmd: "text", label: "Jaws", align: "center", lines: 1},
             h538d20: { cmd: "text", label: "Alien", align: "center", lines: 1},
@@ -295,6 +295,50 @@ module.exports.ROOMS = {
             Chair10: { file: "LIFFtheater2_Chair.png", position: [146, 150], visible: true},
             Chair11: { file: "LIFFtheater2_Chair.png", position: [157, 150], visible: true},
             Chair12: { file: "LIFFtheater2_Chair.png", position: [170, 148], visible: true},
+        }
+    },
+    
+    Sewer: {
+        bg: "LIFFSewer.png",
+        frames: 14,
+        frameDelay: 30,
+        avatarScale: 4,
+        area: "LIFFSewerAreas.png",
+        tint: "#ffffff",
+        pageBg: "#021213",
+        bubblesY: 50,
+        spawn: [202, 148, 224, 158],
+        areaColors: {
+            //h will be replaced by #
+            hff0000: { cmd: "enter", room: "River", label: "Exit sewer", point: [28, 154], enterPoint: [100, 94], obstacle: false },
+            h00ff49: { cmd: "enter", room: "LIFFLobby", label: "Back to Main Hall", point: [208,150], enterPoint: [128, 105], obstacle: false },
+        },
+        things: {
+            //spreadsheets only 1 row ok?
+            
+
+        }
+    },
+  
+  River: {
+        bg: "LIFFRiver.png",
+        frames: 3,
+        frameDelay: 9,
+        avatarScale: 4,
+        area: "LIFFRiverAreas.png",
+        tint: "#ffffff",
+        pageBg: "#021213",
+        bubblesY: 50,
+        spawn: [102,90,122,104],
+        areaColors: {
+            //h will be replaced by #
+            h00ff49: { cmd: "enter", room: "Sewer", label: "Back to sewer", point: [110,95], enterPoint: [28, 154], obstacle: false },
+            hff0000: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [224, 108], enterPoint: [9,158], obstacle: false },
+        },
+        things: {
+            //spreadsheets only 1 row ok?
+            
+
         }
     },
 
