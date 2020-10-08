@@ -50,14 +50,14 @@ module.exports.ROOMS = {
             
             h00c6ba: { cmd: "text", url: "https://www.liff.nl/delifferoo", label: "DeLIFFeroo", txt: "For all your food-related needs.\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [78,170] },
             he35bc8: { cmd: "text", url: "https://shop.liff.nl/", label: "Merch", txt: "T-shirts that blow your socks off!\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [223, 175] },
-            h1ea944: { cmd: "text", label: "Pronck-LIFF-Beer", align: "center", lines: 1 },
+            h1ea944: { cmd: "text", url: "https://www.liff.nl/LIFF-Bier", label: "Pronck-LIFF-Beer", align: "center", lines: 1, point: [61, 143] },
             h160c19: { cmd: "text", label: "Pulp Fiction", align: "center", lines: 1},
             h7c6d1f: { cmd: "text", label: "Jurassic Park", align: "center", lines: 1 },
             h41607a: { cmd: "text", label: "Jaws", align: "center", lines: 1},
             h538d20: { cmd: "text", label: "Alien", align: "center", lines: 1},
             h388841: { cmd: "text", label: "Parasite", align: "center", lines: 1 },
             hd5c929: { cmd: "text", label: "Delicious Popcorn", align: "center", lines: 1 },
-            h35e5ba: { cmd: "text", url: "https://shop.liff.nl/", label: "Audience scores", txt: "The Top 10 LIFF Films\nbased on audience scores.\n\nClick or Tap on this box to see", align: "center", lines: 4, point: [128, 106]},
+            h35e5ba: { cmd: "text", url: "https://vote.liff.nl/", label: "Audience scores", txt: "The Top 10 LIFF Films\nbased on audience scores.\n\nClick or Tap on this box to see", align: "center", lines: 4, point: [128, 106]},
         },
         //list of sprites to create in the room
         //sprites are rendered according to depth sort so they can appear above the avatars unlike the background
