@@ -45,7 +45,7 @@ module.exports.ROOMS = {
             hffec27: { cmd: "enter", room: "LIFFTheater1", label: "Theater Room 1", point: [39, 87], enterPoint: [126, 192], obstacle: false },
             h00e436: { cmd: "enter", room: "LIFFOutside", label: "Outside", point: [132, 192], enterPoint: [128, 118], obstacle: false },
             hab5236: { cmd: "enter", room: "LIFFTheater2", label: "Theater Room 2", point: [226, 52], enterPoint: [126, 192], obstacle: false },
-            hd5521b: { cmd: "enter", room: "PhotoBooth", label: "Photo Booth", point: [92, 116], enterPoint: [156, 186], obstacle: false },
+            hd5521b: { cmd: "enter", room: "PhotoBooth", label: "Photo Booth", point: [92, 116], enterPoint: [156, 186], obstacle: true },
             h2f77ba: { cmd: "enter", room: "Sewer", label: "Shawshank Redemption", point: [128, 105], enterPoint: [215, 150], obstacle: false },
             
             h00c6ba: { cmd: "text", url: "https://www.liff.nl/delifferoo", label: "DeLIFFeroo", txt: "For all your food-related needs.\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [78,170] },
