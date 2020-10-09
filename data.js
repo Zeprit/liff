@@ -26,6 +26,7 @@ module.exports.ROOMS = {
         pageBg: "#28170B",
         //minimum height for the speech bubbles
         bubblesY: 50,
+        music: "lobby.ogg",
         //if spawning directly in this room, top left and bottom right point defining the rectangular spawn area (random within it)
         spawn: [106, 171, 153, 193],
         
@@ -87,7 +88,7 @@ module.exports.ROOMS = {
         tint: "#ffffff",
         bubblesY: 44,
         spawn: [94, 166, 163, 199],
-        //music: "outsideliff.mp3",
+        music: "outside.ogg",
         areaColors: {
             //h will be replaced by #
             hff77a8: { cmd: "enter", room: "LIFFLobby", label: "Enter LIFF", point: [128, 120], enterPoint: [130, 193], obstacle: false },
@@ -138,6 +139,7 @@ module.exports.ROOMS = {
         area: "photobooth_liff_area.png",
         tint: "#ffffff",
         pageBg: "#021213",
+        music: "lobby.ogg",
         bubblesY: 50,
         spawn: [38, 63, 108, 83],
         areaColors: {
@@ -197,6 +199,7 @@ module.exports.ROOMS = {
         tint: "#ffffff",
         pageBg: "#021213",
         bubblesY: 50,
+        music: "sewer.ogg",
         spawn: [202, 148, 224, 158],
         areaColors: {
             //h will be replaced by #
@@ -219,6 +222,7 @@ module.exports.ROOMS = {
         area: "LIFFRiverAreas.png",
         tint: "#ffffff",
         pageBg: "#021213",
+        music: "river.ogg",
         bubblesY: 50,
         spawn: [102,90,122,104],
         areaColors: {
