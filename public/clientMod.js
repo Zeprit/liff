@@ -1,19 +1,96 @@
 function initMod(playerId, roomId) {
     print("Mod: " + players[playerId].nickName + " (you) joined the game at " + roomId);
 
-  	socket.on('reloadVideo', function (videoId)
+    //prevent duplicate listeners
+    if (!socket.hasListeners('musicOn')) {
+
+        socket.on('musicOn', function (beat) {
+
+            SOUNDS["beat" + beat].loop();
+            bg.play();
+        });
+
+        //music is playing
+        socket.on('musicEnter', function (beat) {
+            //start from random
+            SOUNDS["beat" + beat].loop();
+            bg.play();
+        });
+
+        socket.on('musicOff', function (beat) {
+            print("The MOD module communicates with a custom socket event: music off");
+            //just to be sure I stop all the beats
+            SOUNDS["beat1"].stop();
+            SOUNDS["beat2"].stop();
+            SOUNDS["beat3"].stop();
+            SOUNDS.DJStop.play();
+            bg.rewind();
+            bg.stop();
+        });
+
+
+        //music is playing stop all bit without record scratch
+        socket.on('musicExit', function (beat) {
+            SOUNDS["beat1"].stop();
+            SOUNDS["beat2"].stop();
+            SOUNDS["beat3"].stop();
+        });
+
+
+
+        socket.on('updateRoles', function (newcomerId, fr) {
+
+            //keep track of the roles
+            familyRoles = fr;
+            var newcomerAssigned = false;
+
+
+            //change all the sprites just to be sure
+            for (var roleId in familyRoles) {
+                var rolePlayer = familyRoles[roleId];
+
+                //role assigned
+                if (rolePlayer != "") {
+                    print(rolePlayer + " is roleplaying as " + roleId);
+                    if (players[rolePlayer] != null) //player exists
+                    {
+                        //newcomer has a role
+                        if (newcomerId == rolePlayer)
+                            newcomerAssigned = true;
+
+                        changeCharacter(rolePlayer, roleId, roleId + "Walk", roleId + "Emote");
+
+                        //newcomer is me > intro text
+                        if (newcomerId == me.id) {
+                            longText = familyIntro + rolesInfo[roleId][1];
+                            longTextLines = -1;
+                            longTextAlign = "center";
+                        }
+                    }
+                }
+            }
+
+            //server doesn't bother to keep track of spectators so all newcomers without roles are flies
+            if (!newcomerAssigned) {
+
+                changeCharacter(newcomerId, "fly", "flyWalk", "flyEmote");
+
+                if (newcomerId == me.id) {
+                    longText = familyIntro + rolesInfo.fly[1];
+                    longTextLines = -1;
+                    longTextAlign = "center";
+                }
+
+            }
+
+        });
+
+  socket.on('reloadVideo', function (videoId)
 	{
-		print("reloadVideo received");
-		setVideo(videoId, true)
-	});
-	
-	socket.on('changeVideo', function (videoId)
-	{
-		print("changeVideo received");
-		setVideo(videoId, false)
-	});
+@@ -126,273 +15,7 @@ function initMod(playerId, roomId) {
 
 }
+
 
 
 function firstFloorEnter(playerId, roomId) {
