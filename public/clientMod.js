@@ -1,5 +1,7 @@
+function initMod(playerId, roomId) {
+    print("Mod: " + players[playerId].nickName + " (you) joined the game at " + roomId);
 
-  socket.on('reloadVideo', function (videoId)
+  	socket.on('reloadVideo', function (videoId)
 	{
 		print("reloadVideo received");
 		setVideo(videoId, true)
@@ -10,8 +12,6 @@
 		print("changeVideo received");
 		setVideo(videoId, false)
 	});
-
-    }
 
 }
 
