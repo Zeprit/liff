@@ -202,6 +202,7 @@ module.exports.ROOMS = {
             //h will be replaced by #
             hff0000: { cmd: "enter", room: "River", label: "Exit sewer", point: [28, 154], enterPoint: [100, 94], obstacle: false },
             h00ff49: { cmd: "enter", room: "LIFFLobby", label: "Back to Main Hall", point: [208,150], enterPoint: [128, 105], obstacle: false },
+            h00ffaa: { cmd: "text", label: "Hi there little guy.", align: "center", lines: 1 },
         },
         things: {
             //spreadsheets only 1 row ok?
