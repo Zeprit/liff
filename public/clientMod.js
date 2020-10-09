@@ -112,7 +112,17 @@ function initMod(playerId, roomId) {
 
   socket.on('reloadVideo', function (videoId)
 	{
-@@ -126,273 +15,7 @@ function initMod(playerId, roomId) {
+		print("reloadVideo received");
+		setVideo(videoId, true)
+	});
+	
+	socket.on('changeVideo', function (videoId)
+	{
+		print("changeVideo received");
+		setVideo(videoId, false)
+	});
+
+    }
 
 }
 
@@ -387,12 +397,15 @@ function firstFloorEnter(playerId, roomId) {
     if (playerId == me.id) {
 
         var s = localStorage.getItem("sculpture");
+
         if (s == null) {
             s = floor(random(1, 5));
             window.localStorage.setItem("sculpture", s);
         }
+
         //getSprites is a p5 play function
         var roomSprites = getSprites();
+
         for (var i = 0; i < roomSprites.length; i++) {
             if (roomSprites[i].id != null)
                 if (roomSprites[i].id == "sculpture" + s) {
@@ -401,11 +414,15 @@ function firstFloorEnter(playerId, roomId) {
         }
     }
 }
+
 	//var videoUrl = "https://www.youtube.com/embed/iGxrq19AiBI?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=iGxrq19AiBI";
+
 	var youtubeUrl = "https://www.youtube.com/embed/";
+
 	var youtubeParameters = "?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=";
 	
 	var playlistId = "UNBTh4vWRIk";
+
 	var currentLocalYoutubeId = null;
 	
 	function LIFFTheater1Enter(playerId, roomId)
@@ -458,6 +475,7 @@ function firstFloorEnter(playerId, roomId) {
 			if (e != null)
 				e.style.display = "none";
 				setVideo("");
+
 			e = document.getElementById("talk-form");
 			if (e != null)
 			  e.style.display = "block";
@@ -465,6 +483,7 @@ function firstFloorEnter(playerId, roomId) {
 			e = document.getElementById("no-talkie");
 		  	if (e != null)
 			  e.style.display = "none";
+
 		}
 		else
 		{
@@ -485,14 +504,17 @@ function firstFloorEnter(playerId, roomId) {
     {
         //Empty just to declare this
     }
+
     function LIFFTheater2Exit(playerId)
     {
         //Empty just to declare this
     }
+
     function LIFFOutsideEnter(playerId, roomId)
     {
         //Empty just to declare this
     }
+
     function LIFFOutsideExit(playerId)
     {
         //Empty just to declare this
