@@ -52,7 +52,7 @@ module.exports.ROOMS = {
             he35bc8: { cmd: "text", url: "https://shop.liff.nl/", label: "Merch", txt: "T-shirts that blow your socks off!\n\nClick or Tap on this box to visit the store.", align: "center", lines: 4, point: [223, 175] },
             h1ea944: { cmd: "text", url: "https://www.liff.nl/LIFF-Bier", label: "Pronck-LIFF-Beer", txt: "A tasty adult beverage.\n\nClick or Tap on this box for more info.", align: "center", lines: 4, point: [61, 143] },
             h160c19: { cmd: "text", label: "Pulp Fiction", align: "center", lines: 1},
-            h7c6d1f: { cmd: "text", label: "Jurassic Park", align: "center", lines: 1 },
+            h7c6d1f: { cmd: "text", label: "Up", align: "center", lines: 1 },
             h41607a: { cmd: "text", label: "Jaws", align: "center", lines: 1},
             h538d20: { cmd: "text", label: "Alien", align: "center", lines: 1},
             h388841: { cmd: "text", label: "Parasite", align: "center", lines: 1 },
