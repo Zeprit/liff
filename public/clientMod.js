@@ -417,7 +417,7 @@ function firstFloorEnter(playerId, roomId) {
 
 	//var videoUrl = "https://www.youtube.com/embed/iGxrq19AiBI?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=iGxrq19AiBI";
 
-	var youtubeUrl = "https://www.youtube.com/embed/";
+	var youtubeUrl = "playlist&list=PLNiztf0SpnykWe8WJuka-EPJLvKCNg5XC";
 
 	var youtubeParameters = "?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=";
 	
@@ -432,7 +432,7 @@ function firstFloorEnter(playerId, roomId) {
 		{
 			print("player with name entered freeplay");
 			// start the video!
-			setVideo("UNBTh4vWRIk");
+			setVideo("playlist&list=PLNiztf0SpnykWe8WJuka-EPJLvKCNg5XC");
 		}
 		e = document.getElementById("talk-form");
 		if (e != null)
