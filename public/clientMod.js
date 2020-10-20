@@ -417,11 +417,11 @@ function firstFloorEnter(playerId, roomId) {
 
 	//var videoUrl = "https://www.youtube.com/embed/iGxrq19AiBI?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=iGxrq19AiBI";
 
-	var youtubeUrl = "playlist&list=PLNiztf0SpnykWe8WJuka-EPJLvKCNg5XC";
+	var youtubeUrl = "https://www.youtube.com/embed/";
 
 	var youtubeParameters = "?autoplay=1&mute=1&enablejsapi=1&loop=1&playlist=";
 	
-	var playlistId = "UNBTh4vWRIk";
+	var playlistId = "playlist&list=PLNiztf0SpnykWe8WJuka-EPJLvKCNg5XC";
 
 	var currentLocalYoutubeId = null;
 	
